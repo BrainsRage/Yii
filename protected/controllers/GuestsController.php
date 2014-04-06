@@ -11,6 +11,7 @@ class GuestsController extends Controller
 	/**
 	 * @return array action filters
 	 */
+     
 	public function filters()
 	{
 		return array(
@@ -118,9 +119,51 @@ class GuestsController extends Controller
 	}
 
 	public function actionIndex()
-	{	   
-        $this->render('index'); 
-       
+	{	 
+	   
+       $serviceName = Yii::app()->request->getQuery('service');
+		if (isset($serviceName)) {
+			/** @var $eauth EAuthServiceBase */
+			$eauth = Yii::app()->eauth->getIdentity($serviceName);
+			$eauth->redirectUrl = Yii::app()->user->returnUrl;
+			$eauth->cancelUrl = $this->createAbsoluteUrl('guests/index');
+
+			try {
+				if ($eauth->authenticate()) {
+					$identity = new EAuthUserIdentity($eauth);
+
+//					var_dump($eauth->getIsAuthenticated(), $eauth->getAttributes());
+
+					// successful authentication
+					if ($identity->authenticate()) {
+						Yii::app()->user->login($identity);
+						//var_dump($identity->id, $identity->name, Yii::app()->user->id);exit;
+
+						// Save the attributes to display it in layouts/main.php
+						$session = Yii::app()->session;
+						$session['eauth_profile'] = $eauth->attributes;
+
+						// redirect and close the popup window if needed
+						$eauth->redirect();
+					}
+					else {
+						// close popup window and redirect to cancelUrl
+						$eauth->cancel();
+					}
+				}
+
+				// Something went wrong, redirect back to login page
+				$this->redirect(array('guests/index'));
+			}
+			catch (EAuthException $e) {
+				// save authentication error to session
+				Yii::app()->user->setFlash('error', 'EAuthException: '.$e->getMessage());
+
+				// close popup window and redirect to cancelUrl
+				$eauth->redirect($eauth->getCancelUrl());
+			}
+		}
+        $this->render('index');        
        /**
 	 * Lists all models.
 	 */       

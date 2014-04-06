@@ -842,3 +842,1717 @@ Stack trace:
 REQUEST_URI=/index.php?r=submguests
 HTTP_REFERER=http://www.guestbook.ru/index.php?r=guests
 ---
+2014/04/04 16:20:44 [error] [php] Function eregi() is deprecated (Z:\home\guestbook.ru\www\protected\controllers\SubmguestsController.php:18)
+Stack trace:
+#0 Z:\home\guestbook.ru\framework\web\CController.php(308): CInlineAction->runWithParams()
+#1 Z:\home\guestbook.ru\framework\web\CController.php(286): SubmguestsController->runAction()
+#2 Z:\home\guestbook.ru\framework\web\CController.php(265): SubmguestsController->runActionWithFilters()
+#3 Z:\home\guestbook.ru\framework\web\CWebApplication.php(282): SubmguestsController->run()
+#4 Z:\home\guestbook.ru\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#5 Z:\home\guestbook.ru\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#6 Z:\home\guestbook.ru\www\index.php(13): CWebApplication->run()
+REQUEST_URI=/index.php?r=submguests
+in Z:\home\guestbook.ru\www\protected\controllers\SubmguestsController.php (18)
+in Z:\home\guestbook.ru\www\index.php (13)
+2014/04/04 16:25:37 [error] [php] Function eregi() is deprecated (Z:\home\guestbook.ru\www\protected\controllers\SubmguestsController.php:20)
+Stack trace:
+#0 Z:\home\guestbook.ru\framework\web\CController.php(308): CInlineAction->runWithParams()
+#1 Z:\home\guestbook.ru\framework\web\CController.php(286): SubmguestsController->runAction()
+#2 Z:\home\guestbook.ru\framework\web\CController.php(265): SubmguestsController->runActionWithFilters()
+#3 Z:\home\guestbook.ru\framework\web\CWebApplication.php(282): SubmguestsController->run()
+#4 Z:\home\guestbook.ru\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#5 Z:\home\guestbook.ru\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#6 Z:\home\guestbook.ru\www\index.php(13): CWebApplication->run()
+REQUEST_URI=/index.php?r=submguests
+in Z:\home\guestbook.ru\www\protected\controllers\SubmguestsController.php (20)
+in Z:\home\guestbook.ru\www\index.php (13)
+2014/04/04 17:40:55 [error] [php] include(Controller.php) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory (Z:\home\guestbook.ru\framework\YiiBase.php:427)
+Stack trace:
+#0 Z:\home\guestbook.ru\www\protected\controllers\GuestsController.php(4): spl_autoload_call()
+#1 Z:\home\guestbook.ru\framework\web\CWebApplication.php(354): require()
+#2 Z:\home\guestbook.ru\framework\web\CWebApplication.php(276): CWebApplication->createController()
+#3 Z:\home\guestbook.ru\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#4 Z:\home\guestbook.ru\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#5 Z:\home\guestbook.ru\www\index.php(13): CWebApplication->run()
+REQUEST_URI=/index.php?r=guests
+in Z:\home\guestbook.ru\www\protected\controllers\GuestsController.php (4)
+in Z:\home\guestbook.ru\www\index.php (13)
+2014/04/04 17:43:02 [error] [php] include(Controller.php) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory (Z:\home\guestbook.ru\framework\YiiBase.php:427)
+Stack trace:
+#0 Z:\home\guestbook.ru\www\protected\controllers\GuestsController.php(4): spl_autoload_call()
+#1 Z:\home\guestbook.ru\framework\web\CWebApplication.php(354): require()
+#2 Z:\home\guestbook.ru\framework\web\CWebApplication.php(276): CWebApplication->createController()
+#3 Z:\home\guestbook.ru\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#4 Z:\home\guestbook.ru\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#5 Z:\home\guestbook.ru\www\index.php(13): CWebApplication->run()
+REQUEST_URI=/index.php?r=guests
+in Z:\home\guestbook.ru\www\protected\controllers\GuestsController.php (4)
+in Z:\home\guestbook.ru\www\index.php (13)
+2014/04/04 17:44:47 [error] [php] include(Controller.php) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory (Z:\home\guestbook.ru\framework\YiiBase.php:427)
+Stack trace:
+#0 Z:\home\guestbook.ru\www\protected\controllers\GuestsController.php(4): spl_autoload_call()
+#1 Z:\home\guestbook.ru\framework\web\CWebApplication.php(354): require()
+#2 Z:\home\guestbook.ru\framework\web\CWebApplication.php(276): CWebApplication->createController()
+#3 Z:\home\guestbook.ru\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#4 Z:\home\guestbook.ru\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#5 Z:\home\guestbook.ru\www\index.php(13): CWebApplication->run()
+REQUEST_URI=/index.php?r=guests
+in Z:\home\guestbook.ru\www\protected\controllers\GuestsController.php (4)
+in Z:\home\guestbook.ru\www\index.php (13)
+2014/04/04 17:44:49 [error] [php] include(Controller.php) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory (Z:\home\guestbook.ru\framework\YiiBase.php:427)
+Stack trace:
+#0 Z:\home\guestbook.ru\www\protected\controllers\GuestsController.php(4): spl_autoload_call()
+#1 Z:\home\guestbook.ru\framework\web\CWebApplication.php(354): require()
+#2 Z:\home\guestbook.ru\framework\web\CWebApplication.php(276): CWebApplication->createController()
+#3 Z:\home\guestbook.ru\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#4 Z:\home\guestbook.ru\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#5 Z:\home\guestbook.ru\www\index.php(13): CWebApplication->run()
+REQUEST_URI=/index.php?r=guests
+in Z:\home\guestbook.ru\www\protected\controllers\GuestsController.php (4)
+in Z:\home\guestbook.ru\www\index.php (13)
+2014/04/04 17:52:34 [error] [exception.CException] exception 'CException' with message 'Псевдоним "ext.lightopenid.loid" неверен. Убедитесь, что он указывает на существующий PHP файл.' in Z:\home\guestbook.ru\framework\YiiBase.php:322
+Stack trace:
+#0 Z:\home\guestbook.ru\framework\YiiBase.php(196): YiiBase::import('ext.lightopenid...', true)
+#1 Z:\home\guestbook.ru\framework\base\CModule.php(386): YiiBase::createComponent(Array)
+#2 Z:\home\guestbook.ru\framework\base\CModule.php(103): CModule->getComponent('loid')
+#3 Z:\home\guestbook.ru\www\protected\extensions\eauth\EOpenIDService.php(41): CModule->__get('loid')
+#4 Z:\home\guestbook.ru\www\protected\extensions\eauth\EAuth.php(94): EOpenIDService->init(Object(EAuth), Array)
+#5 Z:\home\guestbook.ru\www\protected\extensions\eauth\EAuth.php(37): EAuth->getIdentity('google')
+#6 Z:\home\guestbook.ru\www\protected\extensions\eauth\EAuthWidget.php(51): EAuth->getServices()
+#7 Z:\home\guestbook.ru\www\protected\extensions\eauth\EAuth.php(123): EAuthWidget->init()
+#8 Z:\home\guestbook.ru\www\protected\views\site\login.php(52): EAuth->renderWidget()
+#9 Z:\home\guestbook.ru\framework\web\CBaseController.php(126): require('Z:\home\guestbo...')
+#10 Z:\home\guestbook.ru\framework\web\CBaseController.php(95): CBaseController->renderInternal('Z:\home\guestbo...', Array, true)
+#11 Z:\home\guestbook.ru\framework\web\CController.php(869): CBaseController->renderFile('Z:\home\guestbo...', Array, true)
+#12 Z:\home\guestbook.ru\framework\web\CController.php(782): CController->renderPartial('login', Array, true)
+#13 Z:\home\guestbook.ru\www\protected\controllers\SiteController.php(123): CController->render('login', Array)
+#14 Z:\home\guestbook.ru\framework\web\actions\CInlineAction.php(49): SiteController->actionLogin()
+#15 Z:\home\guestbook.ru\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#16 Z:\home\guestbook.ru\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#17 Z:\home\guestbook.ru\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#18 Z:\home\guestbook.ru\framework\web\CWebApplication.php(282): CController->run('login')
+#19 Z:\home\guestbook.ru\framework\web\CWebApplication.php(141): CWebApplication->runController('site/login')
+#20 Z:\home\guestbook.ru\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#21 Z:\home\guestbook.ru\www\index.php(13): CApplication->run()
+#22 {main}
+REQUEST_URI=/index.php?r=site/login
+HTTP_REFERER=http://www.guestbook.ru/index.php
+---
+2014/04/04 17:52:49 [error] [exception.CException] exception 'CException' with message 'Псевдоним "ext.lightopenid.loid" неверен. Убедитесь, что он указывает на существующий PHP файл.' in Z:\home\guestbook.ru\framework\YiiBase.php:322
+Stack trace:
+#0 Z:\home\guestbook.ru\framework\YiiBase.php(196): YiiBase::import('ext.lightopenid...', true)
+#1 Z:\home\guestbook.ru\framework\base\CModule.php(386): YiiBase::createComponent(Array)
+#2 Z:\home\guestbook.ru\framework\base\CModule.php(103): CModule->getComponent('loid')
+#3 Z:\home\guestbook.ru\www\protected\extensions\eauth\EOpenIDService.php(41): CModule->__get('loid')
+#4 Z:\home\guestbook.ru\www\protected\extensions\eauth\EAuth.php(94): EOpenIDService->init(Object(EAuth), Array)
+#5 Z:\home\guestbook.ru\www\protected\extensions\eauth\EAuth.php(37): EAuth->getIdentity('google')
+#6 Z:\home\guestbook.ru\www\protected\extensions\eauth\EAuthWidget.php(51): EAuth->getServices()
+#7 Z:\home\guestbook.ru\www\protected\extensions\eauth\EAuth.php(123): EAuthWidget->init()
+#8 Z:\home\guestbook.ru\www\protected\views\site\login.php(52): EAuth->renderWidget()
+#9 Z:\home\guestbook.ru\framework\web\CBaseController.php(126): require('Z:\home\guestbo...')
+#10 Z:\home\guestbook.ru\framework\web\CBaseController.php(95): CBaseController->renderInternal('Z:\home\guestbo...', Array, true)
+#11 Z:\home\guestbook.ru\framework\web\CController.php(869): CBaseController->renderFile('Z:\home\guestbo...', Array, true)
+#12 Z:\home\guestbook.ru\framework\web\CController.php(782): CController->renderPartial('login', Array, true)
+#13 Z:\home\guestbook.ru\www\protected\controllers\SiteController.php(123): CController->render('login', Array)
+#14 Z:\home\guestbook.ru\framework\web\actions\CInlineAction.php(49): SiteController->actionLogin()
+#15 Z:\home\guestbook.ru\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#16 Z:\home\guestbook.ru\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#17 Z:\home\guestbook.ru\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#18 Z:\home\guestbook.ru\framework\web\CWebApplication.php(282): CController->run('login')
+#19 Z:\home\guestbook.ru\framework\web\CWebApplication.php(141): CWebApplication->runController('site/login')
+#20 Z:\home\guestbook.ru\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#21 Z:\home\guestbook.ru\www\index.php(13): CApplication->run()
+#22 {main}
+REQUEST_URI=/index.php?r=site/login
+HTTP_REFERER=http://www.guestbook.ru/index.php?r=guests/index
+---
+2014/04/04 18:24:26 [error] [exception.CException] exception 'CException' with message 'Псевдоним "ext.lightopenid.loid" неверен. Убедитесь, что он указывает на существующий PHP файл.' in Z:\home\guestbook.ru\framework\YiiBase.php:322
+Stack trace:
+#0 Z:\home\guestbook.ru\framework\YiiBase.php(196): YiiBase::import('ext.lightopenid...', true)
+#1 Z:\home\guestbook.ru\framework\base\CModule.php(386): YiiBase::createComponent(Array)
+#2 Z:\home\guestbook.ru\framework\base\CModule.php(103): CModule->getComponent('loid')
+#3 Z:\home\guestbook.ru\www\protected\extensions\eauth\EOpenIDService.php(41): CModule->__get('loid')
+#4 Z:\home\guestbook.ru\www\protected\extensions\eauth\EAuth.php(94): EOpenIDService->init(Object(EAuth), Array)
+#5 Z:\home\guestbook.ru\www\protected\extensions\eauth\EAuth.php(37): EAuth->getIdentity('google')
+#6 Z:\home\guestbook.ru\www\protected\extensions\eauth\EAuthWidget.php(51): EAuth->getServices()
+#7 Z:\home\guestbook.ru\www\protected\extensions\eauth\EAuth.php(123): EAuthWidget->init()
+#8 Z:\home\guestbook.ru\www\protected\views\site\login.php(52): EAuth->renderWidget()
+#9 Z:\home\guestbook.ru\framework\web\CBaseController.php(126): require('Z:\home\guestbo...')
+#10 Z:\home\guestbook.ru\framework\web\CBaseController.php(95): CBaseController->renderInternal('Z:\home\guestbo...', Array, true)
+#11 Z:\home\guestbook.ru\framework\web\CController.php(869): CBaseController->renderFile('Z:\home\guestbo...', Array, true)
+#12 Z:\home\guestbook.ru\framework\web\CController.php(782): CController->renderPartial('login', Array, true)
+#13 Z:\home\guestbook.ru\www\protected\controllers\SiteController.php(122): CController->render('login', Array)
+#14 Z:\home\guestbook.ru\framework\web\actions\CInlineAction.php(49): SiteController->actionLogin()
+#15 Z:\home\guestbook.ru\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#16 Z:\home\guestbook.ru\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#17 Z:\home\guestbook.ru\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#18 Z:\home\guestbook.ru\framework\web\CWebApplication.php(282): CController->run('login')
+#19 Z:\home\guestbook.ru\framework\web\CWebApplication.php(141): CWebApplication->runController('site/login')
+#20 Z:\home\guestbook.ru\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#21 Z:\home\guestbook.ru\www\index.php(13): CApplication->run()
+#22 {main}
+REQUEST_URI=/index.php?r=site/login
+HTTP_REFERER=http://www.guestbook.ru/index.php?r=guests/index
+---
+2014/04/04 18:28:22 [error] [exception.CException] exception 'CException' with message 'Псевдоним "ext.lightopenid.loid" неверен. Убедитесь, что он указывает на существующий PHP файл.' in Z:\home\guestbook.ru\framework\YiiBase.php:322
+Stack trace:
+#0 Z:\home\guestbook.ru\framework\YiiBase.php(196): YiiBase::import('ext.lightopenid...', true)
+#1 Z:\home\guestbook.ru\framework\base\CModule.php(386): YiiBase::createComponent(Array)
+#2 Z:\home\guestbook.ru\framework\base\CModule.php(103): CModule->getComponent('loid')
+#3 Z:\home\guestbook.ru\www\protected\extensions\eauth\EOpenIDService.php(41): CModule->__get('loid')
+#4 Z:\home\guestbook.ru\www\protected\extensions\eauth\EAuth.php(94): EOpenIDService->init(Object(EAuth), Array)
+#5 Z:\home\guestbook.ru\www\protected\extensions\eauth\EAuth.php(37): EAuth->getIdentity('google')
+#6 Z:\home\guestbook.ru\www\protected\extensions\eauth\EAuthWidget.php(51): EAuth->getServices()
+#7 Z:\home\guestbook.ru\www\protected\extensions\eauth\EAuth.php(123): EAuthWidget->init()
+#8 Z:\home\guestbook.ru\www\protected\views\site\login.php(52): EAuth->renderWidget()
+#9 Z:\home\guestbook.ru\framework\web\CBaseController.php(126): require('Z:\home\guestbo...')
+#10 Z:\home\guestbook.ru\framework\web\CBaseController.php(95): CBaseController->renderInternal('Z:\home\guestbo...', Array, true)
+#11 Z:\home\guestbook.ru\framework\web\CController.php(869): CBaseController->renderFile('Z:\home\guestbo...', Array, true)
+#12 Z:\home\guestbook.ru\framework\web\CController.php(782): CController->renderPartial('login', Array, true)
+#13 Z:\home\guestbook.ru\www\protected\controllers\SiteController.php(123): CController->render('login', Array)
+#14 Z:\home\guestbook.ru\framework\web\actions\CInlineAction.php(49): SiteController->actionLogin()
+#15 Z:\home\guestbook.ru\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#16 Z:\home\guestbook.ru\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#17 Z:\home\guestbook.ru\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#18 Z:\home\guestbook.ru\framework\web\CWebApplication.php(282): CController->run('login')
+#19 Z:\home\guestbook.ru\framework\web\CWebApplication.php(141): CWebApplication->runController('site/login')
+#20 Z:\home\guestbook.ru\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#21 Z:\home\guestbook.ru\www\index.php(13): CApplication->run()
+#22 {main}
+REQUEST_URI=/index.php?r=site/login
+HTTP_REFERER=http://www.guestbook.ru/index.php?r=guests/index
+---
+2014/04/04 18:49:47 [error] [exception.CException] exception 'CException' with message 'Псевдоним "ext.lightopenid.loid" неверен. Убедитесь, что он указывает на существующий PHP файл.' in Z:\home\guestbook.ru\framework\YiiBase.php:322
+Stack trace:
+#0 Z:\home\guestbook.ru\framework\YiiBase.php(196): YiiBase::import('ext.lightopenid...', true)
+#1 Z:\home\guestbook.ru\framework\base\CModule.php(386): YiiBase::createComponent(Array)
+#2 Z:\home\guestbook.ru\framework\base\CModule.php(103): CModule->getComponent('loid')
+#3 Z:\home\guestbook.ru\www\protected\extensions\eauth\EOpenIDService.php(41): CModule->__get('loid')
+#4 Z:\home\guestbook.ru\www\protected\extensions\eauth\EAuth.php(94): EOpenIDService->init(Object(EAuth), Array)
+#5 Z:\home\guestbook.ru\www\protected\extensions\eauth\EAuth.php(37): EAuth->getIdentity('google')
+#6 Z:\home\guestbook.ru\www\protected\extensions\eauth\EAuthWidget.php(51): EAuth->getServices()
+#7 Z:\home\guestbook.ru\www\protected\extensions\eauth\EAuth.php(123): EAuthWidget->init()
+#8 Z:\home\guestbook.ru\www\protected\views\site\login.php(52): EAuth->renderWidget()
+#9 Z:\home\guestbook.ru\framework\web\CBaseController.php(126): require('Z:\home\guestbo...')
+#10 Z:\home\guestbook.ru\framework\web\CBaseController.php(95): CBaseController->renderInternal('Z:\home\guestbo...', Array, true)
+#11 Z:\home\guestbook.ru\framework\web\CController.php(869): CBaseController->renderFile('Z:\home\guestbo...', Array, true)
+#12 Z:\home\guestbook.ru\framework\web\CController.php(782): CController->renderPartial('login', Array, true)
+#13 Z:\home\guestbook.ru\www\protected\controllers\SiteController.php(123): CController->render('login', Array)
+#14 Z:\home\guestbook.ru\framework\web\actions\CInlineAction.php(49): SiteController->actionLogin()
+#15 Z:\home\guestbook.ru\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#16 Z:\home\guestbook.ru\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#17 Z:\home\guestbook.ru\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#18 Z:\home\guestbook.ru\framework\web\CWebApplication.php(282): CController->run('login')
+#19 Z:\home\guestbook.ru\framework\web\CWebApplication.php(141): CWebApplication->runController('site/login')
+#20 Z:\home\guestbook.ru\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#21 Z:\home\guestbook.ru\www\index.php(13): CApplication->run()
+#22 {main}
+REQUEST_URI=/index.php?r=site/login
+HTTP_REFERER=http://www.guestbook.ru/index.php?r=guests/index
+---
+2014/04/04 19:21:32 [error] [exception.CException] exception 'CException' with message 'Псевдоним "ext.lightopenid.loid" неверен. Убедитесь, что он указывает на существующий PHP файл.' in Z:\home\guestbook.ru\framework\YiiBase.php:322
+Stack trace:
+#0 Z:\home\guestbook.ru\framework\YiiBase.php(196): YiiBase::import('ext.lightopenid...', true)
+#1 Z:\home\guestbook.ru\framework\base\CModule.php(386): YiiBase::createComponent(Array)
+#2 Z:\home\guestbook.ru\framework\base\CModule.php(103): CModule->getComponent('loid')
+#3 Z:\home\guestbook.ru\www\protected\extensions\eauth\EOpenIDService.php(41): CModule->__get('loid')
+#4 Z:\home\guestbook.ru\www\protected\extensions\eauth\EAuth.php(94): EOpenIDService->init(Object(EAuth), Array)
+#5 Z:\home\guestbook.ru\www\protected\extensions\eauth\EAuth.php(37): EAuth->getIdentity('google')
+#6 Z:\home\guestbook.ru\www\protected\extensions\eauth\EAuthWidget.php(51): EAuth->getServices()
+#7 Z:\home\guestbook.ru\www\protected\extensions\eauth\EAuth.php(123): EAuthWidget->init()
+#8 Z:\home\guestbook.ru\www\protected\views\site\login.php(52): EAuth->renderWidget()
+#9 Z:\home\guestbook.ru\framework\web\CBaseController.php(126): require('Z:\home\guestbo...')
+#10 Z:\home\guestbook.ru\framework\web\CBaseController.php(95): CBaseController->renderInternal('Z:\home\guestbo...', Array, true)
+#11 Z:\home\guestbook.ru\framework\web\CController.php(869): CBaseController->renderFile('Z:\home\guestbo...', Array, true)
+#12 Z:\home\guestbook.ru\framework\web\CController.php(782): CController->renderPartial('login', Array, true)
+#13 Z:\home\guestbook.ru\www\protected\controllers\SiteController.php(123): CController->render('login', Array)
+#14 Z:\home\guestbook.ru\framework\web\actions\CInlineAction.php(49): SiteController->actionLogin()
+#15 Z:\home\guestbook.ru\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#16 Z:\home\guestbook.ru\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#17 Z:\home\guestbook.ru\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#18 Z:\home\guestbook.ru\framework\web\CWebApplication.php(282): CController->run('login')
+#19 Z:\home\guestbook.ru\framework\web\CWebApplication.php(141): CWebApplication->runController('site/login')
+#20 Z:\home\guestbook.ru\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#21 Z:\home\guestbook.ru\www\index.php(13): CApplication->run()
+#22 {main}
+REQUEST_URI=/index.php?r=site/login
+HTTP_REFERER=http://www.guestbook.ru/index.php?r=guests/index
+---
+2014/04/04 19:21:34 [error] [exception.CException] exception 'CException' with message 'Псевдоним "ext.lightopenid.loid" неверен. Убедитесь, что он указывает на существующий PHP файл.' in Z:\home\guestbook.ru\framework\YiiBase.php:322
+Stack trace:
+#0 Z:\home\guestbook.ru\framework\YiiBase.php(196): YiiBase::import('ext.lightopenid...', true)
+#1 Z:\home\guestbook.ru\framework\base\CModule.php(386): YiiBase::createComponent(Array)
+#2 Z:\home\guestbook.ru\framework\base\CModule.php(103): CModule->getComponent('loid')
+#3 Z:\home\guestbook.ru\www\protected\extensions\eauth\EOpenIDService.php(41): CModule->__get('loid')
+#4 Z:\home\guestbook.ru\www\protected\extensions\eauth\EAuth.php(94): EOpenIDService->init(Object(EAuth), Array)
+#5 Z:\home\guestbook.ru\www\protected\extensions\eauth\EAuth.php(37): EAuth->getIdentity('google')
+#6 Z:\home\guestbook.ru\www\protected\extensions\eauth\EAuthWidget.php(51): EAuth->getServices()
+#7 Z:\home\guestbook.ru\www\protected\extensions\eauth\EAuth.php(123): EAuthWidget->init()
+#8 Z:\home\guestbook.ru\www\protected\views\site\login.php(52): EAuth->renderWidget()
+#9 Z:\home\guestbook.ru\framework\web\CBaseController.php(126): require('Z:\home\guestbo...')
+#10 Z:\home\guestbook.ru\framework\web\CBaseController.php(95): CBaseController->renderInternal('Z:\home\guestbo...', Array, true)
+#11 Z:\home\guestbook.ru\framework\web\CController.php(869): CBaseController->renderFile('Z:\home\guestbo...', Array, true)
+#12 Z:\home\guestbook.ru\framework\web\CController.php(782): CController->renderPartial('login', Array, true)
+#13 Z:\home\guestbook.ru\www\protected\controllers\SiteController.php(123): CController->render('login', Array)
+#14 Z:\home\guestbook.ru\framework\web\actions\CInlineAction.php(49): SiteController->actionLogin()
+#15 Z:\home\guestbook.ru\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#16 Z:\home\guestbook.ru\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#17 Z:\home\guestbook.ru\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#18 Z:\home\guestbook.ru\framework\web\CWebApplication.php(282): CController->run('login')
+#19 Z:\home\guestbook.ru\framework\web\CWebApplication.php(141): CWebApplication->runController('site/login')
+#20 Z:\home\guestbook.ru\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#21 Z:\home\guestbook.ru\www\index.php(13): CApplication->run()
+#22 {main}
+REQUEST_URI=/index.php?r=site/login
+HTTP_REFERER=http://www.guestbook.ru/index.php?r=guests/index
+---
+2014/04/04 19:22:02 [error] [exception.CException] exception 'CException' with message 'Псевдоним "ext.lightopenid.loid" неверен. Убедитесь, что он указывает на существующий PHP файл.' in Z:\home\guestbook.ru\framework\YiiBase.php:322
+Stack trace:
+#0 Z:\home\guestbook.ru\framework\YiiBase.php(196): YiiBase::import('ext.lightopenid...', true)
+#1 Z:\home\guestbook.ru\framework\base\CModule.php(386): YiiBase::createComponent(Array)
+#2 Z:\home\guestbook.ru\framework\base\CModule.php(103): CModule->getComponent('loid')
+#3 Z:\home\guestbook.ru\www\protected\extensions\eauth\EOpenIDService.php(41): CModule->__get('loid')
+#4 Z:\home\guestbook.ru\www\protected\extensions\eauth\EAuth.php(94): EOpenIDService->init(Object(EAuth), Array)
+#5 Z:\home\guestbook.ru\www\protected\extensions\eauth\EAuth.php(37): EAuth->getIdentity('google')
+#6 Z:\home\guestbook.ru\www\protected\extensions\eauth\EAuthWidget.php(51): EAuth->getServices()
+#7 Z:\home\guestbook.ru\www\protected\extensions\eauth\EAuth.php(123): EAuthWidget->init()
+#8 Z:\home\guestbook.ru\www\protected\views\site\login.php(52): EAuth->renderWidget()
+#9 Z:\home\guestbook.ru\framework\web\CBaseController.php(126): require('Z:\home\guestbo...')
+#10 Z:\home\guestbook.ru\framework\web\CBaseController.php(95): CBaseController->renderInternal('Z:\home\guestbo...', Array, true)
+#11 Z:\home\guestbook.ru\framework\web\CController.php(869): CBaseController->renderFile('Z:\home\guestbo...', Array, true)
+#12 Z:\home\guestbook.ru\framework\web\CController.php(782): CController->renderPartial('login', Array, true)
+#13 Z:\home\guestbook.ru\www\protected\controllers\SiteController.php(123): CController->render('login', Array)
+#14 Z:\home\guestbook.ru\framework\web\actions\CInlineAction.php(49): SiteController->actionLogin()
+#15 Z:\home\guestbook.ru\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#16 Z:\home\guestbook.ru\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#17 Z:\home\guestbook.ru\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#18 Z:\home\guestbook.ru\framework\web\CWebApplication.php(282): CController->run('login')
+#19 Z:\home\guestbook.ru\framework\web\CWebApplication.php(141): CWebApplication->runController('site/login')
+#20 Z:\home\guestbook.ru\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#21 Z:\home\guestbook.ru\www\index.php(13): CApplication->run()
+#22 {main}
+REQUEST_URI=/index.php?r=site/login
+HTTP_REFERER=http://www.guestbook.ru/index.php?r=guests/index
+---
+2014/04/05 11:00:14 [error] [exception.CException] exception 'CException' with message 'Псевдоним "ext.lightopenid.loid" неверен. Убедитесь, что он указывает на существующий PHP файл.' in Z:\home\guestbook.ru\framework\YiiBase.php:322
+Stack trace:
+#0 Z:\home\guestbook.ru\framework\YiiBase.php(196): YiiBase::import('ext.lightopenid...', true)
+#1 Z:\home\guestbook.ru\framework\base\CModule.php(386): YiiBase::createComponent(Array)
+#2 Z:\home\guestbook.ru\framework\base\CModule.php(103): CModule->getComponent('loid')
+#3 Z:\home\guestbook.ru\www\protected\extensions\eauth\EOpenIDService.php(41): CModule->__get('loid')
+#4 Z:\home\guestbook.ru\www\protected\extensions\eauth\EAuth.php(94): EOpenIDService->init(Object(EAuth), Array)
+#5 Z:\home\guestbook.ru\www\protected\extensions\eauth\EAuth.php(37): EAuth->getIdentity('google')
+#6 Z:\home\guestbook.ru\www\protected\extensions\eauth\EAuthWidget.php(51): EAuth->getServices()
+#7 Z:\home\guestbook.ru\www\protected\extensions\eauth\EAuth.php(123): EAuthWidget->init()
+#8 Z:\home\guestbook.ru\www\protected\views\site\login.php(52): EAuth->renderWidget()
+#9 Z:\home\guestbook.ru\framework\web\CBaseController.php(126): require('Z:\home\guestbo...')
+#10 Z:\home\guestbook.ru\framework\web\CBaseController.php(95): CBaseController->renderInternal('Z:\home\guestbo...', Array, true)
+#11 Z:\home\guestbook.ru\framework\web\CController.php(869): CBaseController->renderFile('Z:\home\guestbo...', Array, true)
+#12 Z:\home\guestbook.ru\framework\web\CController.php(782): CController->renderPartial('login', Array, true)
+#13 Z:\home\guestbook.ru\www\protected\controllers\SiteController.php(123): CController->render('login', Array)
+#14 Z:\home\guestbook.ru\framework\web\actions\CInlineAction.php(49): SiteController->actionLogin()
+#15 Z:\home\guestbook.ru\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#16 Z:\home\guestbook.ru\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#17 Z:\home\guestbook.ru\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#18 Z:\home\guestbook.ru\framework\web\CWebApplication.php(282): CController->run('login')
+#19 Z:\home\guestbook.ru\framework\web\CWebApplication.php(141): CWebApplication->runController('site/login')
+#20 Z:\home\guestbook.ru\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#21 Z:\home\guestbook.ru\www\index.php(13): CApplication->run()
+#22 {main}
+REQUEST_URI=/index.php?r=site/login
+HTTP_REFERER=http://www.guestbook.ru/index.php?r=guests
+---
+2014/04/05 11:01:34 [error] [exception.CException] exception 'CException' with message 'Контроллер SiteController содержит в своем представлении "Z:\home\guestbook.ru\www\protected\views\site\login.php" тэги виджетов с неправильной вложенностью. В виджете CActiveForm не используется вызов endWidget().' in Z:\home\guestbook.ru\framework\web\CBaseController.php:101
+Stack trace:
+#0 Z:\home\guestbook.ru\framework\web\CController.php(869): CBaseController->renderFile('Z:\home\guestbo...', Array, true)
+#1 Z:\home\guestbook.ru\framework\web\CController.php(782): CController->renderPartial('login', Array, true)
+#2 Z:\home\guestbook.ru\www\protected\controllers\SiteController.php(123): CController->render('login', Array)
+#3 Z:\home\guestbook.ru\framework\web\actions\CInlineAction.php(49): SiteController->actionLogin()
+#4 Z:\home\guestbook.ru\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#5 Z:\home\guestbook.ru\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#6 Z:\home\guestbook.ru\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 Z:\home\guestbook.ru\framework\web\CWebApplication.php(282): CController->run('login')
+#8 Z:\home\guestbook.ru\framework\web\CWebApplication.php(141): CWebApplication->runController('site/login')
+#9 Z:\home\guestbook.ru\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#10 Z:\home\guestbook.ru\www\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/index.php?r=site/login
+HTTP_REFERER=http://www.guestbook.ru/index.php?r=guests
+---
+2014/04/05 11:01:45 [error] [exception.CException] exception 'CException' with message 'Контроллер SiteController содержит в своем представлении "Z:\home\guestbook.ru\www\protected\views\site\login.php" тэги виджетов с неправильной вложенностью. В виджете CActiveForm не используется вызов endWidget().' in Z:\home\guestbook.ru\framework\web\CBaseController.php:101
+Stack trace:
+#0 Z:\home\guestbook.ru\framework\web\CController.php(869): CBaseController->renderFile('Z:\home\guestbo...', Array, true)
+#1 Z:\home\guestbook.ru\framework\web\CController.php(782): CController->renderPartial('login', Array, true)
+#2 Z:\home\guestbook.ru\www\protected\controllers\SiteController.php(123): CController->render('login', Array)
+#3 Z:\home\guestbook.ru\framework\web\actions\CInlineAction.php(49): SiteController->actionLogin()
+#4 Z:\home\guestbook.ru\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#5 Z:\home\guestbook.ru\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#6 Z:\home\guestbook.ru\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 Z:\home\guestbook.ru\framework\web\CWebApplication.php(282): CController->run('login')
+#8 Z:\home\guestbook.ru\framework\web\CWebApplication.php(141): CWebApplication->runController('site/login')
+#9 Z:\home\guestbook.ru\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#10 Z:\home\guestbook.ru\www\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/index.php?r=site/login
+HTTP_REFERER=http://www.guestbook.ru/index.php?r=site/page&view=about
+---
+2014/04/05 11:01:52 [error] [exception.CException] exception 'CException' with message 'Контроллер SiteController содержит в своем представлении "Z:\home\guestbook.ru\www\protected\views\site\login.php" тэги виджетов с неправильной вложенностью. В виджете CActiveForm не используется вызов endWidget().' in Z:\home\guestbook.ru\framework\web\CBaseController.php:101
+Stack trace:
+#0 Z:\home\guestbook.ru\framework\web\CController.php(869): CBaseController->renderFile('Z:\home\guestbo...', Array, true)
+#1 Z:\home\guestbook.ru\framework\web\CController.php(782): CController->renderPartial('login', Array, true)
+#2 Z:\home\guestbook.ru\www\protected\controllers\SiteController.php(123): CController->render('login', Array)
+#3 Z:\home\guestbook.ru\framework\web\actions\CInlineAction.php(49): SiteController->actionLogin()
+#4 Z:\home\guestbook.ru\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#5 Z:\home\guestbook.ru\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#6 Z:\home\guestbook.ru\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 Z:\home\guestbook.ru\framework\web\CWebApplication.php(282): CController->run('login')
+#8 Z:\home\guestbook.ru\framework\web\CWebApplication.php(141): CWebApplication->runController('site/login')
+#9 Z:\home\guestbook.ru\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#10 Z:\home\guestbook.ru\www\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/index.php?r=site/login
+HTTP_REFERER=http://www.guestbook.ru/index.php?r=site/page&view=about
+---
+2014/04/05 11:01:57 [error] [exception.CException] exception 'CException' with message 'Контроллер SiteController содержит в своем представлении "Z:\home\guestbook.ru\www\protected\views\site\login.php" тэги виджетов с неправильной вложенностью. В виджете CActiveForm не используется вызов endWidget().' in Z:\home\guestbook.ru\framework\web\CBaseController.php:101
+Stack trace:
+#0 Z:\home\guestbook.ru\framework\web\CController.php(869): CBaseController->renderFile('Z:\home\guestbo...', Array, true)
+#1 Z:\home\guestbook.ru\framework\web\CController.php(782): CController->renderPartial('login', Array, true)
+#2 Z:\home\guestbook.ru\www\protected\controllers\SiteController.php(123): CController->render('login', Array)
+#3 Z:\home\guestbook.ru\framework\web\actions\CInlineAction.php(49): SiteController->actionLogin()
+#4 Z:\home\guestbook.ru\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#5 Z:\home\guestbook.ru\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#6 Z:\home\guestbook.ru\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 Z:\home\guestbook.ru\framework\web\CWebApplication.php(282): CController->run('login')
+#8 Z:\home\guestbook.ru\framework\web\CWebApplication.php(141): CWebApplication->runController('site/login')
+#9 Z:\home\guestbook.ru\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#10 Z:\home\guestbook.ru\www\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/index.php?r=site/login
+HTTP_REFERER=http://www.guestbook.ru/index.php?r=guests/index
+---
+2014/04/05 11:03:59 [error] [exception.CException] exception 'CException' with message 'Контроллер SiteController содержит в своем представлении "Z:\home\guestbook.ru\www\protected\views\site\login.php" тэги виджетов с неправильной вложенностью. В виджете CActiveForm не используется вызов endWidget().' in Z:\home\guestbook.ru\framework\web\CBaseController.php:101
+Stack trace:
+#0 Z:\home\guestbook.ru\framework\web\CController.php(869): CBaseController->renderFile('Z:\home\guestbo...', Array, true)
+#1 Z:\home\guestbook.ru\framework\web\CController.php(782): CController->renderPartial('login', Array, true)
+#2 Z:\home\guestbook.ru\www\protected\controllers\SiteController.php(99): CController->render('login', Array)
+#3 Z:\home\guestbook.ru\framework\web\actions\CInlineAction.php(49): SiteController->actionLogin()
+#4 Z:\home\guestbook.ru\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#5 Z:\home\guestbook.ru\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#6 Z:\home\guestbook.ru\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 Z:\home\guestbook.ru\framework\web\CWebApplication.php(282): CController->run('login')
+#8 Z:\home\guestbook.ru\framework\web\CWebApplication.php(141): CWebApplication->runController('site/login')
+#9 Z:\home\guestbook.ru\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#10 Z:\home\guestbook.ru\www\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/index.php?r=site/login
+HTTP_REFERER=http://www.guestbook.ru/index.php?r=guests/index
+---
+2014/04/05 11:04:00 [error] [exception.CException] exception 'CException' with message 'Контроллер SiteController содержит в своем представлении "Z:\home\guestbook.ru\www\protected\views\site\login.php" тэги виджетов с неправильной вложенностью. В виджете CActiveForm не используется вызов endWidget().' in Z:\home\guestbook.ru\framework\web\CBaseController.php:101
+Stack trace:
+#0 Z:\home\guestbook.ru\framework\web\CController.php(869): CBaseController->renderFile('Z:\home\guestbo...', Array, true)
+#1 Z:\home\guestbook.ru\framework\web\CController.php(782): CController->renderPartial('login', Array, true)
+#2 Z:\home\guestbook.ru\www\protected\controllers\SiteController.php(99): CController->render('login', Array)
+#3 Z:\home\guestbook.ru\framework\web\actions\CInlineAction.php(49): SiteController->actionLogin()
+#4 Z:\home\guestbook.ru\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#5 Z:\home\guestbook.ru\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#6 Z:\home\guestbook.ru\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 Z:\home\guestbook.ru\framework\web\CWebApplication.php(282): CController->run('login')
+#8 Z:\home\guestbook.ru\framework\web\CWebApplication.php(141): CWebApplication->runController('site/login')
+#9 Z:\home\guestbook.ru\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#10 Z:\home\guestbook.ru\www\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/index.php?r=site/login
+HTTP_REFERER=http://www.guestbook.ru/index.php?r=guests/index
+---
+2014/04/05 11:04:07 [error] [exception.CException] exception 'CException' with message 'Контроллер SiteController содержит в своем представлении "Z:\home\guestbook.ru\www\protected\views\site\login.php" тэги виджетов с неправильной вложенностью. В виджете CActiveForm не используется вызов endWidget().' in Z:\home\guestbook.ru\framework\web\CBaseController.php:101
+Stack trace:
+#0 Z:\home\guestbook.ru\framework\web\CController.php(869): CBaseController->renderFile('Z:\home\guestbo...', Array, true)
+#1 Z:\home\guestbook.ru\framework\web\CController.php(782): CController->renderPartial('login', Array, true)
+#2 Z:\home\guestbook.ru\www\protected\controllers\SiteController.php(99): CController->render('login', Array)
+#3 Z:\home\guestbook.ru\framework\web\actions\CInlineAction.php(49): SiteController->actionLogin()
+#4 Z:\home\guestbook.ru\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#5 Z:\home\guestbook.ru\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#6 Z:\home\guestbook.ru\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 Z:\home\guestbook.ru\framework\web\CWebApplication.php(282): CController->run('login')
+#8 Z:\home\guestbook.ru\framework\web\CWebApplication.php(141): CWebApplication->runController('site/login')
+#9 Z:\home\guestbook.ru\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#10 Z:\home\guestbook.ru\www\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/index.php?r=site/login
+HTTP_REFERER=http://www.guestbook.ru/index.php?r=guests/index
+---
+2014/04/05 11:04:50 [error] [exception.CException] exception 'CException' with message 'Контроллер SiteController содержит в своем представлении "Z:\home\guestbook.ru\www\protected\views\site\login.php" тэги виджетов с неправильной вложенностью. В виджете CActiveForm не используется вызов endWidget().' in Z:\home\guestbook.ru\framework\web\CBaseController.php:101
+Stack trace:
+#0 Z:\home\guestbook.ru\framework\web\CController.php(869): CBaseController->renderFile('Z:\home\guestbo...', Array, true)
+#1 Z:\home\guestbook.ru\framework\web\CController.php(782): CController->renderPartial('login', Array, true)
+#2 Z:\home\guestbook.ru\www\protected\controllers\SiteController.php(98): CController->render('login', Array)
+#3 Z:\home\guestbook.ru\framework\web\actions\CInlineAction.php(49): SiteController->actionLogin()
+#4 Z:\home\guestbook.ru\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#5 Z:\home\guestbook.ru\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#6 Z:\home\guestbook.ru\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 Z:\home\guestbook.ru\framework\web\CWebApplication.php(282): CController->run('login')
+#8 Z:\home\guestbook.ru\framework\web\CWebApplication.php(141): CWebApplication->runController('site/login')
+#9 Z:\home\guestbook.ru\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#10 Z:\home\guestbook.ru\www\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/index.php?r=site/login
+HTTP_REFERER=http://www.guestbook.ru/index.php?r=guests/index
+---
+2014/04/05 11:06:00 [error] [exception.CException] exception 'CException' with message 'Контроллер SiteController содержит в своем представлении "Z:\home\guestbook.ru\www\protected\views\site\login.php" тэги виджетов с неправильной вложенностью. В виджете CActiveForm не используется вызов endWidget().' in Z:\home\guestbook.ru\framework\web\CBaseController.php:101
+Stack trace:
+#0 Z:\home\guestbook.ru\framework\web\CController.php(869): CBaseController->renderFile('Z:\home\guestbo...', Array, true)
+#1 Z:\home\guestbook.ru\framework\web\CController.php(782): CController->renderPartial('login', Array, true)
+#2 Z:\home\guestbook.ru\www\protected\controllers\SiteController.php(98): CController->render('login', Array)
+#3 Z:\home\guestbook.ru\framework\web\actions\CInlineAction.php(49): SiteController->actionLogin()
+#4 Z:\home\guestbook.ru\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#5 Z:\home\guestbook.ru\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#6 Z:\home\guestbook.ru\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 Z:\home\guestbook.ru\framework\web\CWebApplication.php(282): CController->run('login')
+#8 Z:\home\guestbook.ru\framework\web\CWebApplication.php(141): CWebApplication->runController('site/login')
+#9 Z:\home\guestbook.ru\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#10 Z:\home\guestbook.ru\www\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/index.php?r=site/login
+HTTP_REFERER=http://guestbook.ru/
+---
+2014/04/05 11:06:20 [error] [exception.CException] exception 'CException' with message 'Контроллер SiteController содержит в своем представлении "Z:\home\guestbook.ru\www\protected\views\site\login.php" тэги виджетов с неправильной вложенностью. В виджете CActiveForm не используется вызов endWidget().' in Z:\home\guestbook.ru\framework\web\CBaseController.php:101
+Stack trace:
+#0 Z:\home\guestbook.ru\framework\web\CController.php(869): CBaseController->renderFile('Z:\home\guestbo...', Array, true)
+#1 Z:\home\guestbook.ru\framework\web\CController.php(782): CController->renderPartial('login', Array, true)
+#2 Z:\home\guestbook.ru\www\protected\controllers\SiteController.php(98): CController->render('login', Array)
+#3 Z:\home\guestbook.ru\framework\web\actions\CInlineAction.php(49): SiteController->actionLogin()
+#4 Z:\home\guestbook.ru\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#5 Z:\home\guestbook.ru\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#6 Z:\home\guestbook.ru\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 Z:\home\guestbook.ru\framework\web\CWebApplication.php(282): CController->run('login')
+#8 Z:\home\guestbook.ru\framework\web\CWebApplication.php(141): CWebApplication->runController('site/login')
+#9 Z:\home\guestbook.ru\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#10 Z:\home\guestbook.ru\www\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/index.php?r=site/login
+HTTP_REFERER=http://guestbook.ru/
+---
+2014/04/05 11:06:30 [error] [exception.CException] exception 'CException' with message 'Контроллер SiteController содержит в своем представлении "Z:\home\guestbook.ru\www\protected\views\site\login.php" тэги виджетов с неправильной вложенностью. В виджете CActiveForm не используется вызов endWidget().' in Z:\home\guestbook.ru\framework\web\CBaseController.php:101
+Stack trace:
+#0 Z:\home\guestbook.ru\framework\web\CController.php(869): CBaseController->renderFile('Z:\home\guestbo...', Array, true)
+#1 Z:\home\guestbook.ru\framework\web\CController.php(782): CController->renderPartial('login', Array, true)
+#2 Z:\home\guestbook.ru\www\protected\controllers\SiteController.php(98): CController->render('login', Array)
+#3 Z:\home\guestbook.ru\framework\web\actions\CInlineAction.php(49): SiteController->actionLogin()
+#4 Z:\home\guestbook.ru\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#5 Z:\home\guestbook.ru\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#6 Z:\home\guestbook.ru\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 Z:\home\guestbook.ru\framework\web\CWebApplication.php(282): CController->run('login')
+#8 Z:\home\guestbook.ru\framework\web\CWebApplication.php(141): CWebApplication->runController('site/login')
+#9 Z:\home\guestbook.ru\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#10 Z:\home\guestbook.ru\www\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/index.php?r=site/login
+HTTP_REFERER=http://guestbook.ru/
+---
+2014/04/05 11:13:47 [error] [exception.CException] exception 'CException' with message 'Виджет LoginzaWidget не может найти представление "loginzaWidget".' in Z:\home\guestbook.ru\framework\web\widgets\CWidget.php:246
+Stack trace:
+#0 Z:\home\guestbook.ru\www\protected\components\LoginzaWidget.php(25): CWidget->render('loginzaWidget', Array)
+#1 Z:\home\guestbook.ru\framework\web\CBaseController.php(173): LoginzaWidget->run()
+#2 Z:\home\guestbook.ru\www\protected\views\guests\index.php(28): CBaseController->widget('application.com...', Array)
+#3 Z:\home\guestbook.ru\framework\web\CBaseController.php(126): require('Z:\home\guestbo...')
+#4 Z:\home\guestbook.ru\framework\web\CBaseController.php(95): CBaseController->renderInternal('Z:\home\guestbo...', NULL, true)
+#5 Z:\home\guestbook.ru\framework\web\CController.php(869): CBaseController->renderFile('Z:\home\guestbo...', NULL, true)
+#6 Z:\home\guestbook.ru\framework\web\CController.php(782): CController->renderPartial('index', NULL, true)
+#7 Z:\home\guestbook.ru\www\protected\controllers\GuestsController.php(122): CController->render('index')
+#8 Z:\home\guestbook.ru\framework\web\actions\CInlineAction.php(49): GuestsController->actionIndex()
+#9 Z:\home\guestbook.ru\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#10 Z:\home\guestbook.ru\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#11 Z:\home\guestbook.ru\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#12 Z:\home\guestbook.ru\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#13 Z:\home\guestbook.ru\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#14 Z:\home\guestbook.ru\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#15 Z:\home\guestbook.ru\framework\web\CController.php(291): CFilterChain->run()
+#16 Z:\home\guestbook.ru\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#17 Z:\home\guestbook.ru\framework\web\CWebApplication.php(282): CController->run('index')
+#18 Z:\home\guestbook.ru\framework\web\CWebApplication.php(141): CWebApplication->runController('guests/index')
+#19 Z:\home\guestbook.ru\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#20 Z:\home\guestbook.ru\www\index.php(13): CApplication->run()
+#21 {main}
+REQUEST_URI=/index.php?r=guests/index
+HTTP_REFERER=http://www.guestbook.ru/index.php?r=site/login
+---
+2014/04/05 11:26:00 [error] [exception.CException] exception 'CException' with message 'Виджет LoginzaWidget не может найти представление "loginzaWidget".' in Z:\home\guestbook.ru\framework\web\widgets\CWidget.php:246
+Stack trace:
+#0 Z:\home\guestbook.ru\www\protected\components\LoginzaWidget.php(25): CWidget->render('loginzaWidget', Array)
+#1 Z:\home\guestbook.ru\framework\web\CBaseController.php(173): LoginzaWidget->run()
+#2 Z:\home\guestbook.ru\www\protected\views\guests\index.php(31): CBaseController->widget('application.com...', Array)
+#3 Z:\home\guestbook.ru\framework\web\CBaseController.php(126): require('Z:\home\guestbo...')
+#4 Z:\home\guestbook.ru\framework\web\CBaseController.php(95): CBaseController->renderInternal('Z:\home\guestbo...', NULL, true)
+#5 Z:\home\guestbook.ru\framework\web\CController.php(869): CBaseController->renderFile('Z:\home\guestbo...', NULL, true)
+#6 Z:\home\guestbook.ru\framework\web\CController.php(782): CController->renderPartial('index', NULL, true)
+#7 Z:\home\guestbook.ru\www\protected\controllers\GuestsController.php(122): CController->render('index')
+#8 Z:\home\guestbook.ru\framework\web\actions\CInlineAction.php(49): GuestsController->actionIndex()
+#9 Z:\home\guestbook.ru\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#10 Z:\home\guestbook.ru\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#11 Z:\home\guestbook.ru\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#12 Z:\home\guestbook.ru\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#13 Z:\home\guestbook.ru\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#14 Z:\home\guestbook.ru\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#15 Z:\home\guestbook.ru\framework\web\CController.php(291): CFilterChain->run()
+#16 Z:\home\guestbook.ru\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#17 Z:\home\guestbook.ru\framework\web\CWebApplication.php(282): CController->run('index')
+#18 Z:\home\guestbook.ru\framework\web\CWebApplication.php(141): CWebApplication->runController('guests/index')
+#19 Z:\home\guestbook.ru\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#20 Z:\home\guestbook.ru\www\index.php(13): CApplication->run()
+#21 {main}
+REQUEST_URI=/index.php?r=guests/index
+HTTP_REFERER=http://www.guestbook.ru/index.php?r=site/login
+---
+2014/04/05 11:27:04 [error] [exception.CException] exception 'CException' with message 'Виджет LoginzaWidget не может найти представление "loginzaWidget".' in Z:\home\guestbook.ru\framework\web\widgets\CWidget.php:246
+Stack trace:
+#0 Z:\home\guestbook.ru\www\protected\components\LoginzaWidget.php(25): CWidget->render('loginzaWidget', Array)
+#1 Z:\home\guestbook.ru\framework\web\CBaseController.php(173): LoginzaWidget->run()
+#2 Z:\home\guestbook.ru\www\protected\views\guests\index.php(31): CBaseController->widget('application.com...', Array)
+#3 Z:\home\guestbook.ru\framework\web\CBaseController.php(126): require('Z:\home\guestbo...')
+#4 Z:\home\guestbook.ru\framework\web\CBaseController.php(95): CBaseController->renderInternal('Z:\home\guestbo...', NULL, true)
+#5 Z:\home\guestbook.ru\framework\web\CController.php(869): CBaseController->renderFile('Z:\home\guestbo...', NULL, true)
+#6 Z:\home\guestbook.ru\framework\web\CController.php(782): CController->renderPartial('index', NULL, true)
+#7 Z:\home\guestbook.ru\www\protected\controllers\GuestsController.php(122): CController->render('index')
+#8 Z:\home\guestbook.ru\framework\web\actions\CInlineAction.php(49): GuestsController->actionIndex()
+#9 Z:\home\guestbook.ru\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#10 Z:\home\guestbook.ru\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#11 Z:\home\guestbook.ru\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#12 Z:\home\guestbook.ru\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#13 Z:\home\guestbook.ru\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#14 Z:\home\guestbook.ru\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#15 Z:\home\guestbook.ru\framework\web\CController.php(291): CFilterChain->run()
+#16 Z:\home\guestbook.ru\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#17 Z:\home\guestbook.ru\framework\web\CWebApplication.php(282): CController->run('index')
+#18 Z:\home\guestbook.ru\framework\web\CWebApplication.php(141): CWebApplication->runController('guests/index')
+#19 Z:\home\guestbook.ru\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#20 Z:\home\guestbook.ru\www\index.php(13): CApplication->run()
+#21 {main}
+REQUEST_URI=/index.php?r=guests/index
+HTTP_REFERER=http://www.guestbook.ru/index.php?r=site/login
+---
+2014/04/05 11:27:05 [error] [exception.CException] exception 'CException' with message 'Виджет LoginzaWidget не может найти представление "loginzaWidget".' in Z:\home\guestbook.ru\framework\web\widgets\CWidget.php:246
+Stack trace:
+#0 Z:\home\guestbook.ru\www\protected\components\LoginzaWidget.php(25): CWidget->render('loginzaWidget', Array)
+#1 Z:\home\guestbook.ru\framework\web\CBaseController.php(173): LoginzaWidget->run()
+#2 Z:\home\guestbook.ru\www\protected\views\guests\index.php(31): CBaseController->widget('application.com...', Array)
+#3 Z:\home\guestbook.ru\framework\web\CBaseController.php(126): require('Z:\home\guestbo...')
+#4 Z:\home\guestbook.ru\framework\web\CBaseController.php(95): CBaseController->renderInternal('Z:\home\guestbo...', NULL, true)
+#5 Z:\home\guestbook.ru\framework\web\CController.php(869): CBaseController->renderFile('Z:\home\guestbo...', NULL, true)
+#6 Z:\home\guestbook.ru\framework\web\CController.php(782): CController->renderPartial('index', NULL, true)
+#7 Z:\home\guestbook.ru\www\protected\controllers\GuestsController.php(122): CController->render('index')
+#8 Z:\home\guestbook.ru\framework\web\actions\CInlineAction.php(49): GuestsController->actionIndex()
+#9 Z:\home\guestbook.ru\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#10 Z:\home\guestbook.ru\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#11 Z:\home\guestbook.ru\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#12 Z:\home\guestbook.ru\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#13 Z:\home\guestbook.ru\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#14 Z:\home\guestbook.ru\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#15 Z:\home\guestbook.ru\framework\web\CController.php(291): CFilterChain->run()
+#16 Z:\home\guestbook.ru\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#17 Z:\home\guestbook.ru\framework\web\CWebApplication.php(282): CController->run('index')
+#18 Z:\home\guestbook.ru\framework\web\CWebApplication.php(141): CWebApplication->runController('guests/index')
+#19 Z:\home\guestbook.ru\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#20 Z:\home\guestbook.ru\www\index.php(13): CApplication->run()
+#21 {main}
+REQUEST_URI=/index.php?r=guests/index
+HTTP_REFERER=http://www.guestbook.ru/index.php?r=site/login
+---
+2014/04/05 11:31:22 [error] [exception.CException] exception 'CException' with message 'Виджет LoginzaWidget не может найти представление "loginzaWidget".' in Z:\home\guestbook.ru\framework\web\widgets\CWidget.php:246
+Stack trace:
+#0 Z:\home\guestbook.ru\www\protected\components\LoginzaWidget.php(25): CWidget->render('loginzaWidget', Array)
+#1 Z:\home\guestbook.ru\framework\web\CBaseController.php(173): LoginzaWidget->run()
+#2 Z:\home\guestbook.ru\www\protected\views\guests\index.php(31): CBaseController->widget('application.com...', Array)
+#3 Z:\home\guestbook.ru\framework\web\CBaseController.php(126): require('Z:\home\guestbo...')
+#4 Z:\home\guestbook.ru\framework\web\CBaseController.php(95): CBaseController->renderInternal('Z:\home\guestbo...', NULL, true)
+#5 Z:\home\guestbook.ru\framework\web\CController.php(869): CBaseController->renderFile('Z:\home\guestbo...', NULL, true)
+#6 Z:\home\guestbook.ru\framework\web\CController.php(782): CController->renderPartial('index', NULL, true)
+#7 Z:\home\guestbook.ru\www\protected\controllers\GuestsController.php(122): CController->render('index')
+#8 Z:\home\guestbook.ru\framework\web\actions\CInlineAction.php(49): GuestsController->actionIndex()
+#9 Z:\home\guestbook.ru\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#10 Z:\home\guestbook.ru\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#11 Z:\home\guestbook.ru\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#12 Z:\home\guestbook.ru\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#13 Z:\home\guestbook.ru\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#14 Z:\home\guestbook.ru\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#15 Z:\home\guestbook.ru\framework\web\CController.php(291): CFilterChain->run()
+#16 Z:\home\guestbook.ru\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#17 Z:\home\guestbook.ru\framework\web\CWebApplication.php(282): CController->run('index')
+#18 Z:\home\guestbook.ru\framework\web\CWebApplication.php(141): CWebApplication->runController('guests/index')
+#19 Z:\home\guestbook.ru\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#20 Z:\home\guestbook.ru\www\index.php(13): CApplication->run()
+#21 {main}
+REQUEST_URI=/index.php?r=guests/index
+HTTP_REFERER=http://www.guestbook.ru/index.php?r=site/login
+---
+2014/04/05 13:40:04 [error] [exception.CException] exception 'CException' with message 'Псевдоним "ext.lightopenid.loid" неверен. Убедитесь, что он указывает на существующий PHP файл.' in Z:\home\guestbook.ru\framework\YiiBase.php:322
+Stack trace:
+#0 Z:\home\guestbook.ru\framework\YiiBase.php(196): YiiBase::import('ext.lightopenid...', true)
+#1 Z:\home\guestbook.ru\framework\base\CModule.php(386): YiiBase::createComponent(Array)
+#2 Z:\home\guestbook.ru\framework\base\CModule.php(103): CModule->getComponent('loid')
+#3 Z:\home\guestbook.ru\www\protected\extensions\eauth\EOpenIDService.php(41): CModule->__get('loid')
+#4 Z:\home\guestbook.ru\www\protected\extensions\eauth\EAuth.php(94): EOpenIDService->init(Object(EAuth), Array)
+#5 Z:\home\guestbook.ru\www\protected\extensions\eauth\EAuth.php(37): EAuth->getIdentity('google')
+#6 Z:\home\guestbook.ru\www\protected\extensions\eauth\EAuthWidget.php(51): EAuth->getServices()
+#7 Z:\home\guestbook.ru\www\protected\extensions\eauth\EAuth.php(123): EAuthWidget->init()
+#8 Z:\home\guestbook.ru\www\protected\views\guests\index.php(22): EAuth->renderWidget()
+#9 Z:\home\guestbook.ru\framework\web\CBaseController.php(126): require('Z:\home\guestbo...')
+#10 Z:\home\guestbook.ru\framework\web\CBaseController.php(95): CBaseController->renderInternal('Z:\home\guestbo...', NULL, true)
+#11 Z:\home\guestbook.ru\framework\web\CController.php(869): CBaseController->renderFile('Z:\home\guestbo...', NULL, true)
+#12 Z:\home\guestbook.ru\framework\web\CController.php(782): CController->renderPartial('index', NULL, true)
+#13 Z:\home\guestbook.ru\www\protected\controllers\GuestsController.php(122): CController->render('index')
+#14 Z:\home\guestbook.ru\framework\web\actions\CInlineAction.php(49): GuestsController->actionIndex()
+#15 Z:\home\guestbook.ru\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#16 Z:\home\guestbook.ru\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#17 Z:\home\guestbook.ru\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#18 Z:\home\guestbook.ru\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#19 Z:\home\guestbook.ru\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#20 Z:\home\guestbook.ru\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#21 Z:\home\guestbook.ru\framework\web\CController.php(291): CFilterChain->run()
+#22 Z:\home\guestbook.ru\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#23 Z:\home\guestbook.ru\framework\web\CWebApplication.php(282): CController->run('index')
+#24 Z:\home\guestbook.ru\framework\web\CWebApplication.php(141): CWebApplication->runController('guests/index')
+#25 Z:\home\guestbook.ru\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#26 Z:\home\guestbook.ru\www\index.php(13): CApplication->run()
+#27 {main}
+REQUEST_URI=/index.php?r=guests/index
+HTTP_REFERER=http://guestbook.ru/index.php?r=site/contact
+---
+2014/04/05 15:26:32 [error] [exception.CException] exception 'CException' with message 'Не определено свойство "CWebApplication.loid".' in Z:\home\guestbook.ru\framework\base\CComponent.php:130
+Stack trace:
+#0 Z:\home\guestbook.ru\framework\base\CModule.php(105): CComponent->__get('loid')
+#1 Z:\home\guestbook.ru\www\protected\extensions\eauth\EOpenIDService.php(41): CModule->__get('loid')
+#2 Z:\home\guestbook.ru\www\protected\extensions\eauth\EAuth.php(94): EOpenIDService->init(Object(EAuth), Array)
+#3 Z:\home\guestbook.ru\www\protected\extensions\eauth\EAuth.php(37): EAuth->getIdentity('google')
+#4 Z:\home\guestbook.ru\www\protected\extensions\eauth\EAuthWidget.php(51): EAuth->getServices()
+#5 Z:\home\guestbook.ru\framework\web\CBaseController.php(147): EAuthWidget->init()
+#6 Z:\home\guestbook.ru\framework\web\CBaseController.php(172): CBaseController->createWidget('ext.eauth.EAuth...', Array)
+#7 Z:\home\guestbook.ru\www\protected\views\guests\index.php(23): CBaseController->widget('ext.eauth.EAuth...')
+#8 Z:\home\guestbook.ru\framework\web\CBaseController.php(126): require('Z:\home\guestbo...')
+#9 Z:\home\guestbook.ru\framework\web\CBaseController.php(95): CBaseController->renderInternal('Z:\home\guestbo...', NULL, true)
+#10 Z:\home\guestbook.ru\framework\web\CController.php(869): CBaseController->renderFile('Z:\home\guestbo...', NULL, true)
+#11 Z:\home\guestbook.ru\framework\web\CController.php(782): CController->renderPartial('index', NULL, true)
+#12 Z:\home\guestbook.ru\www\protected\controllers\GuestsController.php(122): CController->render('index')
+#13 Z:\home\guestbook.ru\framework\web\actions\CInlineAction.php(49): GuestsController->actionIndex()
+#14 Z:\home\guestbook.ru\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#15 Z:\home\guestbook.ru\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#16 Z:\home\guestbook.ru\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#17 Z:\home\guestbook.ru\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#18 Z:\home\guestbook.ru\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#19 Z:\home\guestbook.ru\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#20 Z:\home\guestbook.ru\framework\web\CController.php(291): CFilterChain->run()
+#21 Z:\home\guestbook.ru\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#22 Z:\home\guestbook.ru\framework\web\CWebApplication.php(282): CController->run('index')
+#23 Z:\home\guestbook.ru\framework\web\CWebApplication.php(141): CWebApplication->runController('guests/index')
+#24 Z:\home\guestbook.ru\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#25 Z:\home\guestbook.ru\www\index.php(13): CApplication->run()
+#26 {main}
+REQUEST_URI=/index.php?r=guests/index
+HTTP_REFERER=http://guestbook.ru/index.php?r=guests/index
+---
+2014/04/05 15:35:09 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Системе не удалось найти запрашиваемое действие "login".' in Z:\home\guestbook.ru\framework\web\CController.php:483
+Stack trace:
+#0 Z:\home\guestbook.ru\framework\web\CController.php(270): CController->missingAction('login')
+#1 Z:\home\guestbook.ru\framework\web\CWebApplication.php(282): CController->run('login')
+#2 Z:\home\guestbook.ru\framework\web\CWebApplication.php(141): CWebApplication->runController('site/login')
+#3 Z:\home\guestbook.ru\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 Z:\home\guestbook.ru\www\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/index.php?r=site/login
+HTTP_REFERER=http://www.guestbook.ru/index.php?r=guests
+---
+2014/04/05 16:10:18 [error] [exception.CException] exception 'CException' with message 'Не определено свойство "SiteController.menu".' in Z:\home\guestbook.ru\framework\base\CComponent.php:130
+Stack trace:
+#0 Z:\home\guestbook.ru\www\protected\views\layouts\column2.php(15): CComponent->__get('menu')
+#1 Z:\home\guestbook.ru\framework\web\CBaseController.php(126): require('Z:\home\guestbo...')
+#2 Z:\home\guestbook.ru\framework\web\CBaseController.php(95): CBaseController->renderInternal('Z:\home\guestbo...', Array, true)
+#3 Z:\home\guestbook.ru\framework\web\CController.php(784): CBaseController->renderFile('Z:\home\guestbo...', Array, true)
+#4 Z:\home\guestbook.ru\www\protected\controllers\SiteController.php(41): CController->render('index')
+#5 Z:\home\guestbook.ru\framework\web\actions\CInlineAction.php(49): SiteController->actionIndex()
+#6 Z:\home\guestbook.ru\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#7 Z:\home\guestbook.ru\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#8 Z:\home\guestbook.ru\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#9 Z:\home\guestbook.ru\framework\web\CWebApplication.php(282): CController->run('')
+#10 Z:\home\guestbook.ru\framework\web\CWebApplication.php(141): CWebApplication->runController('site/')
+#11 Z:\home\guestbook.ru\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#12 Z:\home\guestbook.ru\www\index.php(13): CApplication->run()
+#13 {main}
+REQUEST_URI=/index.php?r=site/
+---
+2014/04/05 16:20:50 [error] [php] include(Controller.php) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory (Z:\home\guestbook.ru\framework\YiiBase.php:427)
+Stack trace:
+#0 Z:\home\guestbook.ru\www\protected\controllers\SiteController.php(4): spl_autoload_call()
+#1 Z:\home\guestbook.ru\framework\web\CWebApplication.php(354): require()
+#2 Z:\home\guestbook.ru\framework\web\CWebApplication.php(276): CWebApplication->createController()
+#3 Z:\home\guestbook.ru\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#4 Z:\home\guestbook.ru\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#5 Z:\home\guestbook.ru\www\index.php(13): CWebApplication->run()
+REQUEST_URI=/index.php?r=site/page&view=about
+in Z:\home\guestbook.ru\www\protected\controllers\SiteController.php (4)
+in Z:\home\guestbook.ru\www\index.php (13)
+2014/04/05 16:20:51 [error] [php] include(Controller.php) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory (Z:\home\guestbook.ru\framework\YiiBase.php:427)
+Stack trace:
+#0 Z:\home\guestbook.ru\www\protected\controllers\GuestsController.php(4): spl_autoload_call()
+#1 Z:\home\guestbook.ru\framework\web\CWebApplication.php(354): require()
+#2 Z:\home\guestbook.ru\framework\web\CWebApplication.php(276): CWebApplication->createController()
+#3 Z:\home\guestbook.ru\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#4 Z:\home\guestbook.ru\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#5 Z:\home\guestbook.ru\www\index.php(13): CWebApplication->run()
+REQUEST_URI=/index.php?r=guests/index
+in Z:\home\guestbook.ru\www\protected\controllers\GuestsController.php (4)
+in Z:\home\guestbook.ru\www\index.php (13)
+2014/04/05 16:41:30 [error] [php] session_regenerate_id() [<a href='function.session-regenerate-id'>function.session-regenerate-id</a>]: Session object destruction failed (Z:\home\guestbook.ru\framework\web\CHttpSession.php:181)
+Stack trace:
+#0 Z:\home\guestbook.ru\framework\web\auth\CWebUser.php(233): CWebUser->changeIdentity()
+#1 Z:\home\guestbook.ru\www\protected\controllers\GuestsController.php(135): CWebUser->login()
+#2 Z:\home\guestbook.ru\framework\web\actions\CInlineAction.php(49): GuestsController->actionIndex()
+#3 Z:\home\guestbook.ru\framework\web\CController.php(308): CInlineAction->runWithParams()
+#4 Z:\home\guestbook.ru\framework\web\filters\CFilterChain.php(133): GuestsController->runAction()
+#5 Z:\home\guestbook.ru\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#6 Z:\home\guestbook.ru\framework\web\CController.php(1145): CAccessControlFilter->filter()
+#7 Z:\home\guestbook.ru\framework\web\filters\CInlineFilter.php(58): GuestsController->filterAccessControl()
+#8 Z:\home\guestbook.ru\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#9 Z:\home\guestbook.ru\framework\web\CController.php(291): CFilterChain->run()
+#10 Z:\home\guestbook.ru\framework\web\CController.php(265): GuestsController->runActionWithFilters()
+#11 Z:\home\guestbook.ru\framework\web\CWebApplication.php(282): GuestsController->run()
+#12 Z:\home\guestbook.ru\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#13 Z:\home\guestbook.ru\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#14 Z:\home\guestbook.ru\www\index.php(13): CWebApplication->run()
+REQUEST_URI=/index.php?r=guests/index&service=google&redirect_uri=http://www.guestbook.ru/index.php?r%3Dguests/index%26service%3Dgoogle&js&openid.ns=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0&openid.mode=id_res&openid.op_endpoint=https%3A%2F%2Fwww.google.com%2Faccounts%2Fo8%2Fud&openid.response_nonce=2014-04-05T10%3A44%3A04Z2PUVvuskzFj5Fg&openid.return_to=http%3A%2F%2Fwww.guestbook.ru%2Findex.php%3Fr%3Dguests%2Findex%26service%3Dgoogle%26redirect_uri%3Dhttp%3A%2F%2Fwww.guestbook.ru%2Findex.php%3Fr%253Dguests%2Findex%2526service%253Dgoogle%26js&openid.assoc_handle=1.AMlYA9UPBWfri28cROhEeJ51JPEi7t-LuaYygzUSaTMrxy-dElrPQG5S7WpEl8LR&openid.signed=op_endpoint%2Cclaimed_id%2Cidentity%2Creturn_to%2Cresponse_nonce%2Cassoc_handle%2Cns.ext1%2Cext1.mode%2Cext1.type.firstname%2Cext1.value.firstname&openid.sig=OQ2Rq94N1d5cUNrpnX8Mh%2FqK6aY%3D&openid.identity=https%3A%2F%2Fwww.google.com%2Faccounts%2Fo8%2Fid%3Fid%3DAItOawlOsnvp8L-1jgz9yiTXwva7uaWOPYb5TPY&openid.claimed_id=https%3A%2F%2Fwww.google.com%2Faccounts%2Fo8%2Fid%3Fid%3DAItOawlOsnvp8L-1jgz9yiTXwva7uaWOPYb5TPY&openid.ns.ext1=http%3A%2F%2Fopenid.net%2Fsrv%2Fax%2F1.0&openid.ext1.mode=fetch_response&openid.ext1.type.firstname=http%3A%2F%2Faxschema.org%2FnamePerson%2Ffirst&openid.ext1.value.firstname=Dima
+in Z:\home\guestbook.ru\www\protected\controllers\GuestsController.php (135)
+in Z:\home\guestbook.ru\www\index.php (13)
+2014/04/05 17:04:16 [error] [php] Cannot modify header information - headers already sent by (output started at Z:\home\guestbook.ru\www\protected\controllers\GuestsController.php:123) (Z:\home\guestbook.ru\framework\web\CHttpRequest.php:803)
+Stack trace:
+#0 Z:\home\guestbook.ru\www\protected\controllers\GuestsController.php(130): VKontakteOAuthService->authenticate()
+#1 Z:\home\guestbook.ru\framework\web\actions\CInlineAction.php(49): GuestsController->actionIndex()
+#2 Z:\home\guestbook.ru\framework\web\CController.php(308): CInlineAction->runWithParams()
+#3 Z:\home\guestbook.ru\framework\web\filters\CFilterChain.php(133): GuestsController->runAction()
+#4 Z:\home\guestbook.ru\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#5 Z:\home\guestbook.ru\framework\web\CController.php(1145): CAccessControlFilter->filter()
+#6 Z:\home\guestbook.ru\framework\web\filters\CInlineFilter.php(58): GuestsController->filterAccessControl()
+#7 Z:\home\guestbook.ru\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#8 Z:\home\guestbook.ru\framework\web\CController.php(291): CFilterChain->run()
+#9 Z:\home\guestbook.ru\framework\web\CController.php(265): GuestsController->runActionWithFilters()
+#10 Z:\home\guestbook.ru\framework\web\CWebApplication.php(282): GuestsController->run()
+#11 Z:\home\guestbook.ru\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#12 Z:\home\guestbook.ru\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#13 Z:\home\guestbook.ru\www\index.php(13): CWebApplication->run()
+REQUEST_URI=/index.php?r=guests/index&service=vkontakte&redirect_uri=http%3A%2F%2Fwww.guestbook.ru%2Findex.php%3Fr%3Dguests%2Findex%26service%3Dvkontakte&js
+in Z:\home\guestbook.ru\www\protected\extensions\eauth\EOAuth2Service.php (79)
+in Z:\home\guestbook.ru\www\protected\controllers\GuestsController.php (130)
+in Z:\home\guestbook.ru\www\index.php (13)
+2014/04/05 17:04:41 [error] [php] Cannot modify header information - headers already sent by (output started at Z:\home\guestbook.ru\www\protected\controllers\GuestsController.php:123) (Z:\home\guestbook.ru\framework\web\CHttpRequest.php:803)
+Stack trace:
+#0 Z:\home\guestbook.ru\www\protected\controllers\GuestsController.php(130): VKontakteOAuthService->authenticate()
+#1 Z:\home\guestbook.ru\framework\web\actions\CInlineAction.php(49): GuestsController->actionIndex()
+#2 Z:\home\guestbook.ru\framework\web\CController.php(308): CInlineAction->runWithParams()
+#3 Z:\home\guestbook.ru\framework\web\filters\CFilterChain.php(133): GuestsController->runAction()
+#4 Z:\home\guestbook.ru\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#5 Z:\home\guestbook.ru\framework\web\CController.php(1145): CAccessControlFilter->filter()
+#6 Z:\home\guestbook.ru\framework\web\filters\CInlineFilter.php(58): GuestsController->filterAccessControl()
+#7 Z:\home\guestbook.ru\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#8 Z:\home\guestbook.ru\framework\web\CController.php(291): CFilterChain->run()
+#9 Z:\home\guestbook.ru\framework\web\CController.php(265): GuestsController->runActionWithFilters()
+#10 Z:\home\guestbook.ru\framework\web\CWebApplication.php(282): GuestsController->run()
+#11 Z:\home\guestbook.ru\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#12 Z:\home\guestbook.ru\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#13 Z:\home\guestbook.ru\www\index.php(13): CWebApplication->run()
+REQUEST_URI=/index.php?r=guests/index&service=vkontakte&redirect_uri=http%3A%2F%2Fwww.guestbook.ru%2Findex.php%3Fr%3Dguests%2Findex%26service%3Dvkontakte&js
+in Z:\home\guestbook.ru\www\protected\extensions\eauth\EOAuth2Service.php (79)
+in Z:\home\guestbook.ru\www\protected\controllers\GuestsController.php (130)
+in Z:\home\guestbook.ru\www\index.php (13)
+2014/04/05 17:07:00 [error] [php] Cannot modify header information - headers already sent by (output started at Z:\home\guestbook.ru\www\protected\controllers\GuestsController.php:123) (Z:\home\guestbook.ru\framework\web\CHttpRequest.php:803)
+Stack trace:
+#0 Z:\home\guestbook.ru\www\protected\controllers\GuestsController.php(130): VKontakteOAuthService->authenticate()
+#1 Z:\home\guestbook.ru\framework\web\actions\CInlineAction.php(49): GuestsController->actionIndex()
+#2 Z:\home\guestbook.ru\framework\web\CController.php(308): CInlineAction->runWithParams()
+#3 Z:\home\guestbook.ru\framework\web\filters\CFilterChain.php(133): GuestsController->runAction()
+#4 Z:\home\guestbook.ru\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#5 Z:\home\guestbook.ru\framework\web\CController.php(1145): CAccessControlFilter->filter()
+#6 Z:\home\guestbook.ru\framework\web\filters\CInlineFilter.php(58): GuestsController->filterAccessControl()
+#7 Z:\home\guestbook.ru\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#8 Z:\home\guestbook.ru\framework\web\CController.php(291): CFilterChain->run()
+#9 Z:\home\guestbook.ru\framework\web\CController.php(265): GuestsController->runActionWithFilters()
+#10 Z:\home\guestbook.ru\framework\web\CWebApplication.php(282): GuestsController->run()
+#11 Z:\home\guestbook.ru\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#12 Z:\home\guestbook.ru\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#13 Z:\home\guestbook.ru\www\index.php(13): CWebApplication->run()
+REQUEST_URI=/index.php?r=guests/index&service=vkontakte&redirect_uri=http%3A%2F%2Fwww.guestbook.ru%2Findex.php%3Fr%3Dguests%2Findex%26service%3Dvkontakte&js
+in Z:\home\guestbook.ru\www\protected\extensions\eauth\EOAuth2Service.php (79)
+in Z:\home\guestbook.ru\www\protected\controllers\GuestsController.php (130)
+in Z:\home\guestbook.ru\www\index.php (13)
+2014/04/05 17:07:02 [error] [php] Cannot modify header information - headers already sent by (output started at Z:\home\guestbook.ru\www\protected\controllers\GuestsController.php:123) (Z:\home\guestbook.ru\framework\web\CHttpRequest.php:803)
+Stack trace:
+#0 Z:\home\guestbook.ru\www\protected\controllers\GuestsController.php(130): MailruOAuthService->authenticate()
+#1 Z:\home\guestbook.ru\framework\web\actions\CInlineAction.php(49): GuestsController->actionIndex()
+#2 Z:\home\guestbook.ru\framework\web\CController.php(308): CInlineAction->runWithParams()
+#3 Z:\home\guestbook.ru\framework\web\filters\CFilterChain.php(133): GuestsController->runAction()
+#4 Z:\home\guestbook.ru\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#5 Z:\home\guestbook.ru\framework\web\CController.php(1145): CAccessControlFilter->filter()
+#6 Z:\home\guestbook.ru\framework\web\filters\CInlineFilter.php(58): GuestsController->filterAccessControl()
+#7 Z:\home\guestbook.ru\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#8 Z:\home\guestbook.ru\framework\web\CController.php(291): CFilterChain->run()
+#9 Z:\home\guestbook.ru\framework\web\CController.php(265): GuestsController->runActionWithFilters()
+#10 Z:\home\guestbook.ru\framework\web\CWebApplication.php(282): GuestsController->run()
+#11 Z:\home\guestbook.ru\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#12 Z:\home\guestbook.ru\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#13 Z:\home\guestbook.ru\www\index.php(13): CWebApplication->run()
+REQUEST_URI=/index.php?r=guests/index&service=mailru&redirect_uri=http%3A%2F%2Fwww.guestbook.ru%2Findex.php%3Fr%3Dguests%2Findex%26service%3Dmailru&js
+in Z:\home\guestbook.ru\www\protected\extensions\eauth\EOAuth2Service.php (79)
+in Z:\home\guestbook.ru\www\protected\controllers\GuestsController.php (130)
+in Z:\home\guestbook.ru\www\index.php (13)
+2014/04/05 17:07:05 [error] [php] Cannot modify header information - headers already sent by (output started at Z:\home\guestbook.ru\www\protected\controllers\GuestsController.php:123) (Z:\home\guestbook.ru\framework\web\CHttpRequest.php:803)
+Stack trace:
+#0 Z:\home\guestbook.ru\www\protected\controllers\GuestsController.php(130): FacebookOAuthService->authenticate()
+#1 Z:\home\guestbook.ru\framework\web\actions\CInlineAction.php(49): GuestsController->actionIndex()
+#2 Z:\home\guestbook.ru\framework\web\CController.php(308): CInlineAction->runWithParams()
+#3 Z:\home\guestbook.ru\framework\web\filters\CFilterChain.php(133): GuestsController->runAction()
+#4 Z:\home\guestbook.ru\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#5 Z:\home\guestbook.ru\framework\web\CController.php(1145): CAccessControlFilter->filter()
+#6 Z:\home\guestbook.ru\framework\web\filters\CInlineFilter.php(58): GuestsController->filterAccessControl()
+#7 Z:\home\guestbook.ru\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#8 Z:\home\guestbook.ru\framework\web\CController.php(291): CFilterChain->run()
+#9 Z:\home\guestbook.ru\framework\web\CController.php(265): GuestsController->runActionWithFilters()
+#10 Z:\home\guestbook.ru\framework\web\CWebApplication.php(282): GuestsController->run()
+#11 Z:\home\guestbook.ru\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#12 Z:\home\guestbook.ru\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#13 Z:\home\guestbook.ru\www\index.php(13): CWebApplication->run()
+REQUEST_URI=/index.php?r=guests/index&service=facebook&redirect_uri=http%3A%2F%2Fwww.guestbook.ru%2Findex.php%3Fr%3Dguests%2Findex%26service%3Dfacebook&js
+in Z:\home\guestbook.ru\www\protected\extensions\eauth\EOAuth2Service.php (79)
+in Z:\home\guestbook.ru\www\protected\controllers\GuestsController.php (130)
+in Z:\home\guestbook.ru\www\index.php (13)
+2014/04/05 17:07:12 [error] [php] Cannot modify header information - headers already sent by (output started at Z:\home\guestbook.ru\www\protected\controllers\GuestsController.php:123) (Z:\home\guestbook.ru\framework\web\CHttpRequest.php:803)
+Stack trace:
+#0 Z:\home\guestbook.ru\www\protected\controllers\GuestsController.php(130): FacebookOAuthService->authenticate()
+#1 Z:\home\guestbook.ru\framework\web\actions\CInlineAction.php(49): GuestsController->actionIndex()
+#2 Z:\home\guestbook.ru\framework\web\CController.php(308): CInlineAction->runWithParams()
+#3 Z:\home\guestbook.ru\framework\web\filters\CFilterChain.php(133): GuestsController->runAction()
+#4 Z:\home\guestbook.ru\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#5 Z:\home\guestbook.ru\framework\web\CController.php(1145): CAccessControlFilter->filter()
+#6 Z:\home\guestbook.ru\framework\web\filters\CInlineFilter.php(58): GuestsController->filterAccessControl()
+#7 Z:\home\guestbook.ru\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#8 Z:\home\guestbook.ru\framework\web\CController.php(291): CFilterChain->run()
+#9 Z:\home\guestbook.ru\framework\web\CController.php(265): GuestsController->runActionWithFilters()
+#10 Z:\home\guestbook.ru\framework\web\CWebApplication.php(282): GuestsController->run()
+#11 Z:\home\guestbook.ru\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#12 Z:\home\guestbook.ru\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#13 Z:\home\guestbook.ru\www\index.php(13): CWebApplication->run()
+REQUEST_URI=/index.php?r=guests/index&service=facebook&redirect_uri=http%3A%2F%2Fwww.guestbook.ru%2Findex.php%3Fr%3Dguests%2Findex%26service%3Dfacebook&js
+in Z:\home\guestbook.ru\www\protected\extensions\eauth\EOAuth2Service.php (79)
+in Z:\home\guestbook.ru\www\protected\controllers\GuestsController.php (130)
+in Z:\home\guestbook.ru\www\index.php (13)
+2014/04/05 17:07:35 [error] [php] Cannot modify header information - headers already sent by (output started at Z:\home\guestbook.ru\www\protected\controllers\GuestsController.php:123) (Z:\home\guestbook.ru\framework\web\CHttpRequest.php:803)
+Stack trace:
+#0 Z:\home\guestbook.ru\www\protected\controllers\GuestsController.php(130): FacebookOAuthService->authenticate()
+#1 Z:\home\guestbook.ru\framework\web\actions\CInlineAction.php(49): GuestsController->actionIndex()
+#2 Z:\home\guestbook.ru\framework\web\CController.php(308): CInlineAction->runWithParams()
+#3 Z:\home\guestbook.ru\framework\web\filters\CFilterChain.php(133): GuestsController->runAction()
+#4 Z:\home\guestbook.ru\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#5 Z:\home\guestbook.ru\framework\web\CController.php(1145): CAccessControlFilter->filter()
+#6 Z:\home\guestbook.ru\framework\web\filters\CInlineFilter.php(58): GuestsController->filterAccessControl()
+#7 Z:\home\guestbook.ru\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#8 Z:\home\guestbook.ru\framework\web\CController.php(291): CFilterChain->run()
+#9 Z:\home\guestbook.ru\framework\web\CController.php(265): GuestsController->runActionWithFilters()
+#10 Z:\home\guestbook.ru\framework\web\CWebApplication.php(282): GuestsController->run()
+#11 Z:\home\guestbook.ru\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#12 Z:\home\guestbook.ru\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#13 Z:\home\guestbook.ru\www\index.php(13): CWebApplication->run()
+REQUEST_URI=/index.php?r=guests/index&service=facebook&redirect_uri=http%3A%2F%2Fwww.guestbook.ru%2Findex.php%3Fr%3Dguests%2Findex%26service%3Dfacebook&js
+in Z:\home\guestbook.ru\www\protected\extensions\eauth\EOAuth2Service.php (79)
+in Z:\home\guestbook.ru\www\protected\controllers\GuestsController.php (130)
+in Z:\home\guestbook.ru\www\index.php (13)
+2014/04/05 17:08:42 [error] [php] Cannot modify header information - headers already sent by (output started at Z:\home\guestbook.ru\www\protected\controllers\GuestsController.php:123) (Z:\home\guestbook.ru\framework\web\CHttpRequest.php:803)
+Stack trace:
+#0 Z:\home\guestbook.ru\www\protected\controllers\GuestsController.php(130): VKontakteOAuthService->authenticate()
+#1 Z:\home\guestbook.ru\framework\web\actions\CInlineAction.php(49): GuestsController->actionIndex()
+#2 Z:\home\guestbook.ru\framework\web\CController.php(308): CInlineAction->runWithParams()
+#3 Z:\home\guestbook.ru\framework\web\filters\CFilterChain.php(133): GuestsController->runAction()
+#4 Z:\home\guestbook.ru\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#5 Z:\home\guestbook.ru\framework\web\CController.php(1145): CAccessControlFilter->filter()
+#6 Z:\home\guestbook.ru\framework\web\filters\CInlineFilter.php(58): GuestsController->filterAccessControl()
+#7 Z:\home\guestbook.ru\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#8 Z:\home\guestbook.ru\framework\web\CController.php(291): CFilterChain->run()
+#9 Z:\home\guestbook.ru\framework\web\CController.php(265): GuestsController->runActionWithFilters()
+#10 Z:\home\guestbook.ru\framework\web\CWebApplication.php(282): GuestsController->run()
+#11 Z:\home\guestbook.ru\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#12 Z:\home\guestbook.ru\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#13 Z:\home\guestbook.ru\www\index.php(13): CWebApplication->run()
+REQUEST_URI=/index.php?r=guests/index&service=vkontakte&redirect_uri=http%3A%2F%2Fwww.guestbook.ru%2Findex.php%3Fr%3Dguests%2Findex%26service%3Dvkontakte&js
+in Z:\home\guestbook.ru\www\protected\extensions\eauth\EOAuth2Service.php (79)
+in Z:\home\guestbook.ru\www\protected\controllers\GuestsController.php (130)
+in Z:\home\guestbook.ru\www\index.php (13)
+2014/04/05 17:08:57 [error] [php] Cannot modify header information - headers already sent by (output started at Z:\home\guestbook.ru\www\protected\controllers\GuestsController.php:123) (Z:\home\guestbook.ru\framework\web\CHttpRequest.php:803)
+Stack trace:
+#0 Z:\home\guestbook.ru\www\protected\controllers\GuestsController.php(130): VKontakteOAuthService->authenticate()
+#1 Z:\home\guestbook.ru\framework\web\actions\CInlineAction.php(49): GuestsController->actionIndex()
+#2 Z:\home\guestbook.ru\framework\web\CController.php(308): CInlineAction->runWithParams()
+#3 Z:\home\guestbook.ru\framework\web\filters\CFilterChain.php(133): GuestsController->runAction()
+#4 Z:\home\guestbook.ru\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#5 Z:\home\guestbook.ru\framework\web\CController.php(1145): CAccessControlFilter->filter()
+#6 Z:\home\guestbook.ru\framework\web\filters\CInlineFilter.php(58): GuestsController->filterAccessControl()
+#7 Z:\home\guestbook.ru\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#8 Z:\home\guestbook.ru\framework\web\CController.php(291): CFilterChain->run()
+#9 Z:\home\guestbook.ru\framework\web\CController.php(265): GuestsController->runActionWithFilters()
+#10 Z:\home\guestbook.ru\framework\web\CWebApplication.php(282): GuestsController->run()
+#11 Z:\home\guestbook.ru\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#12 Z:\home\guestbook.ru\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#13 Z:\home\guestbook.ru\www\index.php(13): CWebApplication->run()
+REQUEST_URI=/index.php?r=guests/index&service=vkontakte&redirect_uri=http%3A%2F%2Fwww.guestbook.ru%2Findex.php%3Fr%3Dguests%2Findex%26service%3Dvkontakte&js
+in Z:\home\guestbook.ru\www\protected\extensions\eauth\EOAuth2Service.php (79)
+in Z:\home\guestbook.ru\www\protected\controllers\GuestsController.php (130)
+in Z:\home\guestbook.ru\www\index.php (13)
+2014/04/05 17:08:59 [error] [php] Cannot modify header information - headers already sent by (output started at Z:\home\guestbook.ru\www\protected\controllers\GuestsController.php:123) (Z:\home\guestbook.ru\framework\web\CHttpRequest.php:803)
+Stack trace:
+#0 Z:\home\guestbook.ru\www\protected\controllers\GuestsController.php(130): MailruOAuthService->authenticate()
+#1 Z:\home\guestbook.ru\framework\web\actions\CInlineAction.php(49): GuestsController->actionIndex()
+#2 Z:\home\guestbook.ru\framework\web\CController.php(308): CInlineAction->runWithParams()
+#3 Z:\home\guestbook.ru\framework\web\filters\CFilterChain.php(133): GuestsController->runAction()
+#4 Z:\home\guestbook.ru\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#5 Z:\home\guestbook.ru\framework\web\CController.php(1145): CAccessControlFilter->filter()
+#6 Z:\home\guestbook.ru\framework\web\filters\CInlineFilter.php(58): GuestsController->filterAccessControl()
+#7 Z:\home\guestbook.ru\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#8 Z:\home\guestbook.ru\framework\web\CController.php(291): CFilterChain->run()
+#9 Z:\home\guestbook.ru\framework\web\CController.php(265): GuestsController->runActionWithFilters()
+#10 Z:\home\guestbook.ru\framework\web\CWebApplication.php(282): GuestsController->run()
+#11 Z:\home\guestbook.ru\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#12 Z:\home\guestbook.ru\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#13 Z:\home\guestbook.ru\www\index.php(13): CWebApplication->run()
+REQUEST_URI=/index.php?r=guests/index&service=mailru&redirect_uri=http%3A%2F%2Fwww.guestbook.ru%2Findex.php%3Fr%3Dguests%2Findex%26service%3Dmailru&js
+in Z:\home\guestbook.ru\www\protected\extensions\eauth\EOAuth2Service.php (79)
+in Z:\home\guestbook.ru\www\protected\controllers\GuestsController.php (130)
+in Z:\home\guestbook.ru\www\index.php (13)
+2014/04/05 17:09:06 [error] [php] Cannot modify header information - headers already sent by (output started at Z:\home\guestbook.ru\www\protected\controllers\GuestsController.php:123) (Z:\home\guestbook.ru\framework\web\CHttpRequest.php:803)
+Stack trace:
+#0 Z:\home\guestbook.ru\www\protected\controllers\GuestsController.php(147): GuestsController->redirect()
+#1 Z:\home\guestbook.ru\framework\web\actions\CInlineAction.php(49): GuestsController->actionIndex()
+#2 Z:\home\guestbook.ru\framework\web\CController.php(308): CInlineAction->runWithParams()
+#3 Z:\home\guestbook.ru\framework\web\filters\CFilterChain.php(133): GuestsController->runAction()
+#4 Z:\home\guestbook.ru\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#5 Z:\home\guestbook.ru\framework\web\CController.php(1145): CAccessControlFilter->filter()
+#6 Z:\home\guestbook.ru\framework\web\filters\CInlineFilter.php(58): GuestsController->filterAccessControl()
+#7 Z:\home\guestbook.ru\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#8 Z:\home\guestbook.ru\framework\web\CController.php(291): CFilterChain->run()
+#9 Z:\home\guestbook.ru\framework\web\CController.php(265): GuestsController->runActionWithFilters()
+#10 Z:\home\guestbook.ru\framework\web\CWebApplication.php(282): GuestsController->run()
+#11 Z:\home\guestbook.ru\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#12 Z:\home\guestbook.ru\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#13 Z:\home\guestbook.ru\www\index.php(13): CWebApplication->run()
+REQUEST_URI=/index.php?r=guests/index&service=twitter&redirect_uri=http%3A%2F%2Fwww.guestbook.ru%2Findex.php%3Fr%3Dguests%2Findex%26service%3Dtwitter&js
+in Z:\home\guestbook.ru\www\protected\controllers\GuestsController.php (147)
+in Z:\home\guestbook.ru\www\index.php (13)
+2014/04/05 17:09:08 [error] [php] Cannot modify header information - headers already sent by (output started at Z:\home\guestbook.ru\www\protected\controllers\GuestsController.php:123) (Z:\home\guestbook.ru\framework\web\CHttpRequest.php:803)
+Stack trace:
+#0 Z:\home\guestbook.ru\www\protected\controllers\GuestsController.php(130): VKontakteOAuthService->authenticate()
+#1 Z:\home\guestbook.ru\framework\web\actions\CInlineAction.php(49): GuestsController->actionIndex()
+#2 Z:\home\guestbook.ru\framework\web\CController.php(308): CInlineAction->runWithParams()
+#3 Z:\home\guestbook.ru\framework\web\filters\CFilterChain.php(133): GuestsController->runAction()
+#4 Z:\home\guestbook.ru\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#5 Z:\home\guestbook.ru\framework\web\CController.php(1145): CAccessControlFilter->filter()
+#6 Z:\home\guestbook.ru\framework\web\filters\CInlineFilter.php(58): GuestsController->filterAccessControl()
+#7 Z:\home\guestbook.ru\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#8 Z:\home\guestbook.ru\framework\web\CController.php(291): CFilterChain->run()
+#9 Z:\home\guestbook.ru\framework\web\CController.php(265): GuestsController->runActionWithFilters()
+#10 Z:\home\guestbook.ru\framework\web\CWebApplication.php(282): GuestsController->run()
+#11 Z:\home\guestbook.ru\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#12 Z:\home\guestbook.ru\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#13 Z:\home\guestbook.ru\www\index.php(13): CWebApplication->run()
+REQUEST_URI=/index.php?r=guests/index&service=vkontakte&redirect_uri=http%3A%2F%2Fwww.guestbook.ru%2Findex.php%3Fr%3Dguests%2Findex%26service%3Dvkontakte&js
+in Z:\home\guestbook.ru\www\protected\extensions\eauth\EOAuth2Service.php (79)
+in Z:\home\guestbook.ru\www\protected\controllers\GuestsController.php (130)
+in Z:\home\guestbook.ru\www\index.php (13)
+2014/04/05 17:09:13 [error] [php] Cannot modify header information - headers already sent by (output started at Z:\home\guestbook.ru\www\protected\controllers\GuestsController.php:123) (Z:\home\guestbook.ru\framework\web\CHttpRequest.php:803)
+Stack trace:
+#0 Z:\home\guestbook.ru\www\protected\controllers\GuestsController.php(130): VKontakteOAuthService->authenticate()
+#1 Z:\home\guestbook.ru\framework\web\actions\CInlineAction.php(49): GuestsController->actionIndex()
+#2 Z:\home\guestbook.ru\framework\web\CController.php(308): CInlineAction->runWithParams()
+#3 Z:\home\guestbook.ru\framework\web\filters\CFilterChain.php(133): GuestsController->runAction()
+#4 Z:\home\guestbook.ru\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#5 Z:\home\guestbook.ru\framework\web\CController.php(1145): CAccessControlFilter->filter()
+#6 Z:\home\guestbook.ru\framework\web\filters\CInlineFilter.php(58): GuestsController->filterAccessControl()
+#7 Z:\home\guestbook.ru\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#8 Z:\home\guestbook.ru\framework\web\CController.php(291): CFilterChain->run()
+#9 Z:\home\guestbook.ru\framework\web\CController.php(265): GuestsController->runActionWithFilters()
+#10 Z:\home\guestbook.ru\framework\web\CWebApplication.php(282): GuestsController->run()
+#11 Z:\home\guestbook.ru\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#12 Z:\home\guestbook.ru\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#13 Z:\home\guestbook.ru\www\index.php(13): CWebApplication->run()
+REQUEST_URI=/index.php?r=guests/index&service=vkontakte&redirect_uri=http%3A%2F%2Fwww.guestbook.ru%2Findex.php%3Fr%3Dguests%2Findex%26service%3Dvkontakte&js
+in Z:\home\guestbook.ru\www\protected\extensions\eauth\EOAuth2Service.php (79)
+in Z:\home\guestbook.ru\www\protected\controllers\GuestsController.php (130)
+in Z:\home\guestbook.ru\www\index.php (13)
+2014/04/05 17:09:16 [error] [php] Cannot modify header information - headers already sent by (output started at Z:\home\guestbook.ru\www\protected\controllers\GuestsController.php:123) (Z:\home\guestbook.ru\framework\web\CHttpRequest.php:803)
+Stack trace:
+#0 Z:\home\guestbook.ru\www\protected\controllers\GuestsController.php(130): MailruOAuthService->authenticate()
+#1 Z:\home\guestbook.ru\framework\web\actions\CInlineAction.php(49): GuestsController->actionIndex()
+#2 Z:\home\guestbook.ru\framework\web\CController.php(308): CInlineAction->runWithParams()
+#3 Z:\home\guestbook.ru\framework\web\filters\CFilterChain.php(133): GuestsController->runAction()
+#4 Z:\home\guestbook.ru\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#5 Z:\home\guestbook.ru\framework\web\CController.php(1145): CAccessControlFilter->filter()
+#6 Z:\home\guestbook.ru\framework\web\filters\CInlineFilter.php(58): GuestsController->filterAccessControl()
+#7 Z:\home\guestbook.ru\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#8 Z:\home\guestbook.ru\framework\web\CController.php(291): CFilterChain->run()
+#9 Z:\home\guestbook.ru\framework\web\CController.php(265): GuestsController->runActionWithFilters()
+#10 Z:\home\guestbook.ru\framework\web\CWebApplication.php(282): GuestsController->run()
+#11 Z:\home\guestbook.ru\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#12 Z:\home\guestbook.ru\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#13 Z:\home\guestbook.ru\www\index.php(13): CWebApplication->run()
+REQUEST_URI=/index.php?r=guests/index&service=mailru&redirect_uri=http%3A%2F%2Fwww.guestbook.ru%2Findex.php%3Fr%3Dguests%2Findex%26service%3Dmailru&js
+in Z:\home\guestbook.ru\www\protected\extensions\eauth\EOAuth2Service.php (79)
+in Z:\home\guestbook.ru\www\protected\controllers\GuestsController.php (130)
+in Z:\home\guestbook.ru\www\index.php (13)
+2014/04/05 17:09:29 [error] [php] Cannot modify header information - headers already sent by (output started at Z:\home\guestbook.ru\www\protected\controllers\GuestsController.php:123) (Z:\home\guestbook.ru\framework\web\CHttpRequest.php:803)
+Stack trace:
+#0 Z:\home\guestbook.ru\www\protected\controllers\GuestsController.php(130): VKontakteOAuthService->authenticate()
+#1 Z:\home\guestbook.ru\framework\web\actions\CInlineAction.php(49): GuestsController->actionIndex()
+#2 Z:\home\guestbook.ru\framework\web\CController.php(308): CInlineAction->runWithParams()
+#3 Z:\home\guestbook.ru\framework\web\filters\CFilterChain.php(133): GuestsController->runAction()
+#4 Z:\home\guestbook.ru\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#5 Z:\home\guestbook.ru\framework\web\CController.php(1145): CAccessControlFilter->filter()
+#6 Z:\home\guestbook.ru\framework\web\filters\CInlineFilter.php(58): GuestsController->filterAccessControl()
+#7 Z:\home\guestbook.ru\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#8 Z:\home\guestbook.ru\framework\web\CController.php(291): CFilterChain->run()
+#9 Z:\home\guestbook.ru\framework\web\CController.php(265): GuestsController->runActionWithFilters()
+#10 Z:\home\guestbook.ru\framework\web\CWebApplication.php(282): GuestsController->run()
+#11 Z:\home\guestbook.ru\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#12 Z:\home\guestbook.ru\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#13 Z:\home\guestbook.ru\www\index.php(13): CWebApplication->run()
+REQUEST_URI=/index.php?r=guests/index&service=vkontakte&redirect_uri=http%3A%2F%2Fwww.guestbook.ru%2Findex.php%3Fr%3Dguests%2Findex%26service%3Dvkontakte&js
+in Z:\home\guestbook.ru\www\protected\extensions\eauth\EOAuth2Service.php (79)
+in Z:\home\guestbook.ru\www\protected\controllers\GuestsController.php (130)
+in Z:\home\guestbook.ru\www\index.php (13)
+2014/04/05 17:09:33 [error] [php] Cannot modify header information - headers already sent by (output started at Z:\home\guestbook.ru\www\protected\controllers\GuestsController.php:123) (Z:\home\guestbook.ru\framework\web\CHttpRequest.php:803)
+Stack trace:
+#0 Z:\home\guestbook.ru\www\protected\controllers\GuestsController.php(147): GuestsController->redirect()
+#1 Z:\home\guestbook.ru\framework\web\actions\CInlineAction.php(49): GuestsController->actionIndex()
+#2 Z:\home\guestbook.ru\framework\web\CController.php(308): CInlineAction->runWithParams()
+#3 Z:\home\guestbook.ru\framework\web\filters\CFilterChain.php(133): GuestsController->runAction()
+#4 Z:\home\guestbook.ru\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#5 Z:\home\guestbook.ru\framework\web\CController.php(1145): CAccessControlFilter->filter()
+#6 Z:\home\guestbook.ru\framework\web\filters\CInlineFilter.php(58): GuestsController->filterAccessControl()
+#7 Z:\home\guestbook.ru\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#8 Z:\home\guestbook.ru\framework\web\CController.php(291): CFilterChain->run()
+#9 Z:\home\guestbook.ru\framework\web\CController.php(265): GuestsController->runActionWithFilters()
+#10 Z:\home\guestbook.ru\framework\web\CWebApplication.php(282): GuestsController->run()
+#11 Z:\home\guestbook.ru\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#12 Z:\home\guestbook.ru\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#13 Z:\home\guestbook.ru\www\index.php(13): CWebApplication->run()
+REQUEST_URI=/index.php?r=guests/index&service=twitter&redirect_uri=http%3A%2F%2Fwww.guestbook.ru%2Findex.php%3Fr%3Dguests%2Findex%26service%3Dtwitter&js
+in Z:\home\guestbook.ru\www\protected\controllers\GuestsController.php (147)
+in Z:\home\guestbook.ru\www\index.php (13)
+2014/04/05 17:11:32 [error] [php] include(UserIdentity.php) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory (Z:\home\guestbook.ru\framework\YiiBase.php:427)
+Stack trace:
+#0 Z:\home\guestbook.ru\www\ServiceUserIdentity.php(2): spl_autoload_call()
+#1 Z:\home\guestbook.ru\framework\YiiBase.php(427): include()
+#2 unknown(0): autoload()
+#3 Z:\home\guestbook.ru\www\protected\controllers\GuestsController.php(131): spl_autoload_call()
+#4 Z:\home\guestbook.ru\framework\web\actions\CInlineAction.php(49): GuestsController->actionIndex()
+#5 Z:\home\guestbook.ru\framework\web\CController.php(308): CInlineAction->runWithParams()
+#6 Z:\home\guestbook.ru\framework\web\filters\CFilterChain.php(133): GuestsController->runAction()
+#7 Z:\home\guestbook.ru\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#8 Z:\home\guestbook.ru\framework\web\CController.php(1145): CAccessControlFilter->filter()
+#9 Z:\home\guestbook.ru\framework\web\filters\CInlineFilter.php(58): GuestsController->filterAccessControl()
+#10 Z:\home\guestbook.ru\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#11 Z:\home\guestbook.ru\framework\web\CController.php(291): CFilterChain->run()
+#12 Z:\home\guestbook.ru\framework\web\CController.php(265): GuestsController->runActionWithFilters()
+#13 Z:\home\guestbook.ru\framework\web\CWebApplication.php(282): GuestsController->run()
+#14 Z:\home\guestbook.ru\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#15 Z:\home\guestbook.ru\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#16 Z:\home\guestbook.ru\www\index.php(13): CWebApplication->run()
+REQUEST_URI=/index.php?r=guests/index&service=google&redirect_uri=http://www.guestbook.ru/index.php?r%3Dguests/index%26service%3Dgoogle&js&openid.ns=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0&openid.mode=id_res&openid.op_endpoint=https%3A%2F%2Fwww.google.com%2Faccounts%2Fo8%2Fud&openid.response_nonce=2014-04-05T11%3A14%3A26ZUFoo_X7kgZHtBg&openid.return_to=http%3A%2F%2Fwww.guestbook.ru%2Findex.php%3Fr%3Dguests%2Findex%26service%3Dgoogle%26redirect_uri%3Dhttp%3A%2F%2Fwww.guestbook.ru%2Findex.php%3Fr%253Dguests%2Findex%2526service%253Dgoogle%26js&openid.assoc_handle=1.AMlYA9UpsnrtBCETTNU1KseAlA-k3vFTtd-8RE3g_Xwq5KgWxzx9tV4EWc7y-moV&openid.signed=op_endpoint%2Cclaimed_id%2Cidentity%2Creturn_to%2Cresponse_nonce%2Cassoc_handle%2Cns.ext1%2Cext1.mode%2Cext1.type.firstname%2Cext1.value.firstname&openid.sig=P%2B%2Bq%2FOrywI14yVV5%2F9fJTj8fVhs%3D&openid.identity=https%3A%2F%2Fwww.google.com%2Faccounts%2Fo8%2Fid%3Fid%3DAItOawlOsnvp8L-1jgz9yiTXwva7uaWOPYb5TPY&openid.claimed_id=https%3A%2F%2Fwww.google.com%2Faccounts%2Fo8%2Fid%3Fid%3DAItOawlOsnvp8L-1jgz9yiTXwva7uaWOPYb5TPY&openid.ns.ext1=http%3A%2F%2Fopenid.net%2Fsrv%2Fax%2F1.0&openid.ext1.mode=fetch_response&openid.ext1.type.firstname=http%3A%2F%2Faxschema.org%2FnamePerson%2Ffirst&openid.ext1.value.firstname=Dima
+in Z:\home\guestbook.ru\www\ServiceUserIdentity.php (2)
+in Z:\home\guestbook.ru\www\protected\controllers\GuestsController.php (131)
+in Z:\home\guestbook.ru\www\index.php (13)
+2014/04/05 17:12:59 [error] [php] include(UserIdentity.php) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory (Z:\home\guestbook.ru\framework\YiiBase.php:427)
+Stack trace:
+#0 Z:\home\guestbook.ru\www\ServiceUserIdentity.php(2): spl_autoload_call()
+#1 Z:\home\guestbook.ru\framework\YiiBase.php(427): include()
+#2 unknown(0): autoload()
+#3 Z:\home\guestbook.ru\www\protected\controllers\GuestsController.php(131): spl_autoload_call()
+#4 Z:\home\guestbook.ru\framework\web\actions\CInlineAction.php(49): GuestsController->actionIndex()
+#5 Z:\home\guestbook.ru\framework\web\CController.php(308): CInlineAction->runWithParams()
+#6 Z:\home\guestbook.ru\framework\web\filters\CFilterChain.php(133): GuestsController->runAction()
+#7 Z:\home\guestbook.ru\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#8 Z:\home\guestbook.ru\framework\web\CController.php(1145): CAccessControlFilter->filter()
+#9 Z:\home\guestbook.ru\framework\web\filters\CInlineFilter.php(58): GuestsController->filterAccessControl()
+#10 Z:\home\guestbook.ru\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#11 Z:\home\guestbook.ru\framework\web\CController.php(291): CFilterChain->run()
+#12 Z:\home\guestbook.ru\framework\web\CController.php(265): GuestsController->runActionWithFilters()
+#13 Z:\home\guestbook.ru\framework\web\CWebApplication.php(282): GuestsController->run()
+#14 Z:\home\guestbook.ru\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#15 Z:\home\guestbook.ru\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#16 Z:\home\guestbook.ru\www\index.php(13): CWebApplication->run()
+REQUEST_URI=/index.php?r=guests/index&service=google&redirect_uri=http://www.guestbook.ru/index.php?r%3Dguests/index%26service%3Dgoogle&js&openid.ns=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0&openid.mode=id_res&openid.op_endpoint=https%3A%2F%2Fwww.google.com%2Faccounts%2Fo8%2Fud&openid.response_nonce=2014-04-05T11%3A15%3A54Z7jCXyUr1bAih9g&openid.return_to=http%3A%2F%2Fwww.guestbook.ru%2Findex.php%3Fr%3Dguests%2Findex%26service%3Dgoogle%26redirect_uri%3Dhttp%3A%2F%2Fwww.guestbook.ru%2Findex.php%3Fr%253Dguests%2Findex%2526service%253Dgoogle%26js&openid.assoc_handle=1.AMlYA9XZV0IapGPDX6RydRl-_U2Ao4B5ci1Gmjd0_qX8ahbroqT7Nrcn-ZYBJVtW&openid.signed=op_endpoint%2Cclaimed_id%2Cidentity%2Creturn_to%2Cresponse_nonce%2Cassoc_handle%2Cns.ext1%2Cext1.mode%2Cext1.type.firstname%2Cext1.value.firstname&openid.sig=i3330dnn%2BZ%2FohaFeB%2BnN7sD2unU%3D&openid.identity=https%3A%2F%2Fwww.google.com%2Faccounts%2Fo8%2Fid%3Fid%3DAItOawlOsnvp8L-1jgz9yiTXwva7uaWOPYb5TPY&openid.claimed_id=https%3A%2F%2Fwww.google.com%2Faccounts%2Fo8%2Fid%3Fid%3DAItOawlOsnvp8L-1jgz9yiTXwva7uaWOPYb5TPY&openid.ns.ext1=http%3A%2F%2Fopenid.net%2Fsrv%2Fax%2F1.0&openid.ext1.mode=fetch_response&openid.ext1.type.firstname=http%3A%2F%2Faxschema.org%2FnamePerson%2Ffirst&openid.ext1.value.firstname=Dima
+in Z:\home\guestbook.ru\www\ServiceUserIdentity.php (2)
+in Z:\home\guestbook.ru\www\protected\controllers\GuestsController.php (131)
+in Z:\home\guestbook.ru\www\index.php (13)
+2014/04/05 17:13:23 [error] [php] include(UserIdentity.php) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory (Z:\home\guestbook.ru\framework\YiiBase.php:427)
+Stack trace:
+#0 Z:\home\guestbook.ru\www\ServiceUserIdentity.php(2): spl_autoload_call()
+#1 Z:\home\guestbook.ru\framework\YiiBase.php(427): include()
+#2 unknown(0): autoload()
+#3 Z:\home\guestbook.ru\www\protected\controllers\GuestsController.php(131): spl_autoload_call()
+#4 Z:\home\guestbook.ru\framework\web\actions\CInlineAction.php(49): GuestsController->actionIndex()
+#5 Z:\home\guestbook.ru\framework\web\CController.php(308): CInlineAction->runWithParams()
+#6 Z:\home\guestbook.ru\framework\web\filters\CFilterChain.php(133): GuestsController->runAction()
+#7 Z:\home\guestbook.ru\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#8 Z:\home\guestbook.ru\framework\web\CController.php(1145): CAccessControlFilter->filter()
+#9 Z:\home\guestbook.ru\framework\web\filters\CInlineFilter.php(58): GuestsController->filterAccessControl()
+#10 Z:\home\guestbook.ru\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#11 Z:\home\guestbook.ru\framework\web\CController.php(291): CFilterChain->run()
+#12 Z:\home\guestbook.ru\framework\web\CController.php(265): GuestsController->runActionWithFilters()
+#13 Z:\home\guestbook.ru\framework\web\CWebApplication.php(282): GuestsController->run()
+#14 Z:\home\guestbook.ru\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#15 Z:\home\guestbook.ru\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#16 Z:\home\guestbook.ru\www\index.php(13): CWebApplication->run()
+REQUEST_URI=/index.php?r=guests/index&service=google&redirect_uri=http://www.guestbook.ru/index.php?r%3Dguests/index%26service%3Dgoogle&js&openid.ns=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0&openid.mode=id_res&openid.op_endpoint=https%3A%2F%2Fwww.google.com%2Faccounts%2Fo8%2Fud&openid.response_nonce=2014-04-05T11%3A16%3A18ZMwHPsbykGAOBNw&openid.return_to=http%3A%2F%2Fwww.guestbook.ru%2Findex.php%3Fr%3Dguests%2Findex%26service%3Dgoogle%26redirect_uri%3Dhttp%3A%2F%2Fwww.guestbook.ru%2Findex.php%3Fr%253Dguests%2Findex%2526service%253Dgoogle%26js&openid.assoc_handle=1.AMlYA9VV4-wd5TU1i8zaaKfYKJxShsiRBgwJfJ0W6TbvpCixr81dnURm_ALuICHm&openid.signed=op_endpoint%2Cclaimed_id%2Cidentity%2Creturn_to%2Cresponse_nonce%2Cassoc_handle%2Cns.ext1%2Cext1.mode%2Cext1.type.firstname%2Cext1.value.firstname&openid.sig=4I6yxBg6JDQplQfkgxEd87P4fwA%3D&openid.identity=https%3A%2F%2Fwww.google.com%2Faccounts%2Fo8%2Fid%3Fid%3DAItOawlOsnvp8L-1jgz9yiTXwva7uaWOPYb5TPY&openid.claimed_id=https%3A%2F%2Fwww.google.com%2Faccounts%2Fo8%2Fid%3Fid%3DAItOawlOsnvp8L-1jgz9yiTXwva7uaWOPYb5TPY&openid.ns.ext1=http%3A%2F%2Fopenid.net%2Fsrv%2Fax%2F1.0&openid.ext1.mode=fetch_response&openid.ext1.type.firstname=http%3A%2F%2Faxschema.org%2FnamePerson%2Ffirst&openid.ext1.value.firstname=Dima
+in Z:\home\guestbook.ru\www\ServiceUserIdentity.php (2)
+in Z:\home\guestbook.ru\www\protected\controllers\GuestsController.php (131)
+in Z:\home\guestbook.ru\www\index.php (13)
+2014/04/05 17:15:00 [error] [php] include(UserIdentity.php) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory (Z:\home\guestbook.ru\framework\YiiBase.php:427)
+Stack trace:
+#0 Z:\home\guestbook.ru\www\ServiceUserIdentity.php(2): spl_autoload_call()
+#1 Z:\home\guestbook.ru\framework\YiiBase.php(427): include()
+#2 unknown(0): autoload()
+#3 Z:\home\guestbook.ru\www\protected\controllers\GuestsController.php(131): spl_autoload_call()
+#4 Z:\home\guestbook.ru\framework\web\actions\CInlineAction.php(49): GuestsController->actionIndex()
+#5 Z:\home\guestbook.ru\framework\web\CController.php(308): CInlineAction->runWithParams()
+#6 Z:\home\guestbook.ru\framework\web\filters\CFilterChain.php(133): GuestsController->runAction()
+#7 Z:\home\guestbook.ru\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#8 Z:\home\guestbook.ru\framework\web\CController.php(1145): CAccessControlFilter->filter()
+#9 Z:\home\guestbook.ru\framework\web\filters\CInlineFilter.php(58): GuestsController->filterAccessControl()
+#10 Z:\home\guestbook.ru\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#11 Z:\home\guestbook.ru\framework\web\CController.php(291): CFilterChain->run()
+#12 Z:\home\guestbook.ru\framework\web\CController.php(265): GuestsController->runActionWithFilters()
+#13 Z:\home\guestbook.ru\framework\web\CWebApplication.php(282): GuestsController->run()
+#14 Z:\home\guestbook.ru\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#15 Z:\home\guestbook.ru\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#16 Z:\home\guestbook.ru\www\index.php(13): CWebApplication->run()
+REQUEST_URI=/index.php?r=guests/index&service=google&redirect_uri=http://www.guestbook.ru/index.php?r%3Dguests/index%26service%3Dgoogle&js&openid.ns=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0&openid.mode=id_res&openid.op_endpoint=https%3A%2F%2Fwww.google.com%2Faccounts%2Fo8%2Fud&openid.response_nonce=2014-04-05T11%3A17%3A55Z0UxcdlXga-p0cg&openid.return_to=http%3A%2F%2Fwww.guestbook.ru%2Findex.php%3Fr%3Dguests%2Findex%26service%3Dgoogle%26redirect_uri%3Dhttp%3A%2F%2Fwww.guestbook.ru%2Findex.php%3Fr%253Dguests%2Findex%2526service%253Dgoogle%26js&openid.assoc_handle=1.AMlYA9W00OBVXXBErgw0IYJWCjVG6kLOkMz5xE4I20Pp9EmqKxTLJAA8hb1RP-qP&openid.signed=op_endpoint%2Cclaimed_id%2Cidentity%2Creturn_to%2Cresponse_nonce%2Cassoc_handle%2Cns.ext1%2Cext1.mode%2Cext1.type.firstname%2Cext1.value.firstname&openid.sig=e1a0TJaOO68eGylm8IP%2BQDbDZUQ%3D&openid.identity=https%3A%2F%2Fwww.google.com%2Faccounts%2Fo8%2Fid%3Fid%3DAItOawlOsnvp8L-1jgz9yiTXwva7uaWOPYb5TPY&openid.claimed_id=https%3A%2F%2Fwww.google.com%2Faccounts%2Fo8%2Fid%3Fid%3DAItOawlOsnvp8L-1jgz9yiTXwva7uaWOPYb5TPY&openid.ns.ext1=http%3A%2F%2Fopenid.net%2Fsrv%2Fax%2F1.0&openid.ext1.mode=fetch_response&openid.ext1.type.firstname=http%3A%2F%2Faxschema.org%2FnamePerson%2Ffirst&openid.ext1.value.firstname=Dima
+in Z:\home\guestbook.ru\www\ServiceUserIdentity.php (2)
+in Z:\home\guestbook.ru\www\protected\controllers\GuestsController.php (131)
+in Z:\home\guestbook.ru\www\index.php (13)
+2014/04/05 17:15:54 [error] [php] include(UserIdentity.php) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory (Z:\home\guestbook.ru\framework\YiiBase.php:427)
+Stack trace:
+#0 Z:\home\guestbook.ru\www\ServiceUserIdentity.php(2): spl_autoload_call()
+#1 Z:\home\guestbook.ru\framework\YiiBase.php(427): include()
+#2 unknown(0): autoload()
+#3 Z:\home\guestbook.ru\www\protected\controllers\GuestsController.php(131): spl_autoload_call()
+#4 Z:\home\guestbook.ru\framework\web\actions\CInlineAction.php(49): GuestsController->actionIndex()
+#5 Z:\home\guestbook.ru\framework\web\CController.php(308): CInlineAction->runWithParams()
+#6 Z:\home\guestbook.ru\framework\web\filters\CFilterChain.php(133): GuestsController->runAction()
+#7 Z:\home\guestbook.ru\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#8 Z:\home\guestbook.ru\framework\web\CController.php(1145): CAccessControlFilter->filter()
+#9 Z:\home\guestbook.ru\framework\web\filters\CInlineFilter.php(58): GuestsController->filterAccessControl()
+#10 Z:\home\guestbook.ru\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#11 Z:\home\guestbook.ru\framework\web\CController.php(291): CFilterChain->run()
+#12 Z:\home\guestbook.ru\framework\web\CController.php(265): GuestsController->runActionWithFilters()
+#13 Z:\home\guestbook.ru\framework\web\CWebApplication.php(282): GuestsController->run()
+#14 Z:\home\guestbook.ru\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#15 Z:\home\guestbook.ru\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#16 Z:\home\guestbook.ru\www\index.php(13): CWebApplication->run()
+REQUEST_URI=/index.php?r=guests/index&service=google&redirect_uri=http://www.guestbook.ru/index.php?r%3Dguests/index%26service%3Dgoogle&js&openid.ns=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0&openid.mode=id_res&openid.op_endpoint=https%3A%2F%2Fwww.google.com%2Faccounts%2Fo8%2Fud&openid.response_nonce=2014-04-05T11%3A18%3A49Zg1N-OlXh94VN3Q&openid.return_to=http%3A%2F%2Fwww.guestbook.ru%2Findex.php%3Fr%3Dguests%2Findex%26service%3Dgoogle%26redirect_uri%3Dhttp%3A%2F%2Fwww.guestbook.ru%2Findex.php%3Fr%253Dguests%2Findex%2526service%253Dgoogle%26js&openid.assoc_handle=1.AMlYA9UOnJPbWfOxuvWZQgJ_3MNPNs4UEuZ-J3RWdAHUStkDey8zpWiNMIxeRzPk&openid.signed=op_endpoint%2Cclaimed_id%2Cidentity%2Creturn_to%2Cresponse_nonce%2Cassoc_handle%2Cns.ext1%2Cext1.mode%2Cext1.type.firstname%2Cext1.value.firstname&openid.sig=cn%2FwUuumbpE%2BAA4eTFv%2FvoxH1W4%3D&openid.identity=https%3A%2F%2Fwww.google.com%2Faccounts%2Fo8%2Fid%3Fid%3DAItOawlOsnvp8L-1jgz9yiTXwva7uaWOPYb5TPY&openid.claimed_id=https%3A%2F%2Fwww.google.com%2Faccounts%2Fo8%2Fid%3Fid%3DAItOawlOsnvp8L-1jgz9yiTXwva7uaWOPYb5TPY&openid.ns.ext1=http%3A%2F%2Fopenid.net%2Fsrv%2Fax%2F1.0&openid.ext1.mode=fetch_response&openid.ext1.type.firstname=http%3A%2F%2Faxschema.org%2FnamePerson%2Ffirst&openid.ext1.value.firstname=Dima
+in Z:\home\guestbook.ru\www\ServiceUserIdentity.php (2)
+in Z:\home\guestbook.ru\www\protected\controllers\GuestsController.php (131)
+in Z:\home\guestbook.ru\www\index.php (13)
+2014/04/05 19:13:37 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Системе не удалось найти запрашиваемое действие "guests".' in Z:\home\guestbook.ru\framework\web\CController.php:483
+Stack trace:
+#0 Z:\home\guestbook.ru\framework\web\CController.php(270): CController->missingAction('guests')
+#1 Z:\home\guestbook.ru\framework\web\CWebApplication.php(282): CController->run('guests')
+#2 Z:\home\guestbook.ru\framework\web\CWebApplication.php(141): CWebApplication->runController('guests/guests')
+#3 Z:\home\guestbook.ru\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 Z:\home\guestbook.ru\www\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/index.php?r=guests/guests&service=vkontakte&redirect_uri=http%3A%2F%2Fguestbook.ru%2Findex.php%3Fr%3Dguests%2Fguests%26service%3Dvkontakte&js
+HTTP_REFERER=http://guestbook.ru/index.php?r=guests
+---
+2014/04/05 19:13:55 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Системе не удалось найти запрашиваемое действие "guests".' in Z:\home\guestbook.ru\framework\web\CController.php:483
+Stack trace:
+#0 Z:\home\guestbook.ru\framework\web\CController.php(270): CController->missingAction('guests')
+#1 Z:\home\guestbook.ru\framework\web\CWebApplication.php(282): CController->run('guests')
+#2 Z:\home\guestbook.ru\framework\web\CWebApplication.php(141): CWebApplication->runController('guests/guests')
+#3 Z:\home\guestbook.ru\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 Z:\home\guestbook.ru\www\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/index.php?r=guests/guests&service=mailru&redirect_uri=http%3A%2F%2Fguestbook.ru%2Findex.php%3Fr%3Dguests%2Fguests%26service%3Dmailru&js
+HTTP_REFERER=http://guestbook.ru/index.php?r=guests
+---
+2014/04/05 19:13:59 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Системе не удалось найти запрашиваемое действие "guests".' in Z:\home\guestbook.ru\framework\web\CController.php:483
+Stack trace:
+#0 Z:\home\guestbook.ru\framework\web\CController.php(270): CController->missingAction('guests')
+#1 Z:\home\guestbook.ru\framework\web\CWebApplication.php(282): CController->run('guests')
+#2 Z:\home\guestbook.ru\framework\web\CWebApplication.php(141): CWebApplication->runController('guests/guests')
+#3 Z:\home\guestbook.ru\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 Z:\home\guestbook.ru\www\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/index.php?r=guests/guests&service=yandex&redirect_uri=http%3A%2F%2Fguestbook.ru%2Findex.php%3Fr%3Dguests%2Fguests%26service%3Dyandex&js
+HTTP_REFERER=http://guestbook.ru/index.php?r=guests
+---
+2014/04/05 19:14:07 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Системе не удалось найти запрашиваемое действие "guests".' in Z:\home\guestbook.ru\framework\web\CController.php:483
+Stack trace:
+#0 Z:\home\guestbook.ru\framework\web\CController.php(270): CController->missingAction('guests')
+#1 Z:\home\guestbook.ru\framework\web\CWebApplication.php(282): CController->run('guests')
+#2 Z:\home\guestbook.ru\framework\web\CWebApplication.php(141): CWebApplication->runController('guests/guests')
+#3 Z:\home\guestbook.ru\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 Z:\home\guestbook.ru\www\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/index.php?r=guests/guests&service=google&redirect_uri=http%3A%2F%2Fguestbook.ru%2Findex.php%3Fr%3Dguests%2Fguests%26service%3Dgoogle&js
+HTTP_REFERER=http://guestbook.ru/index.php?r=guests
+---
+2014/04/05 19:15:01 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Системе не удалось найти запрашиваемое действие "guests".' in Z:\home\guestbook.ru\framework\web\CController.php:483
+Stack trace:
+#0 Z:\home\guestbook.ru\framework\web\CController.php(270): CController->missingAction('guests')
+#1 Z:\home\guestbook.ru\framework\web\CWebApplication.php(282): CController->run('guests')
+#2 Z:\home\guestbook.ru\framework\web\CWebApplication.php(141): CWebApplication->runController('guests/guests')
+#3 Z:\home\guestbook.ru\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 Z:\home\guestbook.ru\www\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/index.php?r=guests/guests&service=facebook&redirect_uri=http%3A%2F%2Fguestbook.ru%2Findex.php%3Fr%3Dguests%2Fguests%26service%3Dfacebook&js
+HTTP_REFERER=http://guestbook.ru/index.php?r=guests
+---
+2014/04/05 19:20:19 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Системе не удалось найти запрашиваемое действие "guests".' in Z:\home\guestbook.ru\framework\web\CController.php:483
+Stack trace:
+#0 Z:\home\guestbook.ru\framework\web\CController.php(270): CController->missingAction('guests')
+#1 Z:\home\guestbook.ru\framework\web\CWebApplication.php(282): CController->run('guests')
+#2 Z:\home\guestbook.ru\framework\web\CWebApplication.php(141): CWebApplication->runController('guests/guests')
+#3 Z:\home\guestbook.ru\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 Z:\home\guestbook.ru\www\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/index.php?r=guests/guests&service=vkontakte&redirect_uri=http%3A%2F%2Fguestbook.ru%2Findex.php%3Fr%3Dguests%2Fguests%26service%3Dvkontakte&js
+HTTP_REFERER=http://guestbook.ru/index.php?r=guests
+---
+2014/04/05 19:21:22 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Системе не удалось найти запрашиваемое действие "guests".' in Z:\home\guestbook.ru\framework\web\CController.php:483
+Stack trace:
+#0 Z:\home\guestbook.ru\framework\web\CController.php(270): CController->missingAction('guests')
+#1 Z:\home\guestbook.ru\framework\web\CWebApplication.php(282): CController->run('guests')
+#2 Z:\home\guestbook.ru\framework\web\CWebApplication.php(141): CWebApplication->runController('guests/guests')
+#3 Z:\home\guestbook.ru\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 Z:\home\guestbook.ru\www\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/index.php?r=guests/guests&service=vkontakte&redirect_uri=http%3A%2F%2Fguestbook.ru%2Findex.php%3Fr%3Dguests%2Fguests%26service%3Dvkontakte&js
+HTTP_REFERER=http://guestbook.ru/index.php?r=guests
+---
+2014/04/05 19:22:32 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Системе не удалось найти запрашиваемое действие "guests".' in Z:\home\guestbook.ru\framework\web\CController.php:483
+Stack trace:
+#0 Z:\home\guestbook.ru\framework\web\CController.php(270): CController->missingAction('guests')
+#1 Z:\home\guestbook.ru\framework\web\CWebApplication.php(282): CController->run('guests')
+#2 Z:\home\guestbook.ru\framework\web\CWebApplication.php(141): CWebApplication->runController('guests/guests')
+#3 Z:\home\guestbook.ru\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 Z:\home\guestbook.ru\www\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/index.php?r=guests/guests&service=vkontakte&redirect_uri=http%3A%2F%2Fguestbook.ru%2Findex.php%3Fr%3Dguests%2Fguests%26service%3Dvkontakte&js
+HTTP_REFERER=http://guestbook.ru/index.php?r=guests
+---
+2014/04/05 19:23:20 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Системе не удалось найти запрашиваемое действие "guests".' in Z:\home\guestbook.ru\framework\web\CController.php:483
+Stack trace:
+#0 Z:\home\guestbook.ru\framework\web\CController.php(270): CController->missingAction('guests')
+#1 Z:\home\guestbook.ru\framework\web\CWebApplication.php(282): CController->run('guests')
+#2 Z:\home\guestbook.ru\framework\web\CWebApplication.php(141): CWebApplication->runController('guests/guests')
+#3 Z:\home\guestbook.ru\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 Z:\home\guestbook.ru\www\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/index.php?r=guests/guests&service=vkontakte&redirect_uri=http%3A%2F%2Fguestbook.ru%2Findex.php%3Fr%3Dguests%2Fguests%26service%3Dvkontakte&js
+HTTP_REFERER=http://guestbook.ru/index.php?r=guests
+---
+2014/04/05 19:26:57 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Системе не удалось найти запрашиваемое действие "guests".' in Z:\home\guestbook.ru\framework\web\CController.php:483
+Stack trace:
+#0 Z:\home\guestbook.ru\framework\web\CController.php(270): CController->missingAction('guests')
+#1 Z:\home\guestbook.ru\framework\web\CWebApplication.php(282): CController->run('guests')
+#2 Z:\home\guestbook.ru\framework\web\CWebApplication.php(141): CWebApplication->runController('guests/guests')
+#3 Z:\home\guestbook.ru\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 Z:\home\guestbook.ru\www\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/index.php?r=guests/guests
+HTTP_REFERER=http://guestbook.ru/index.php?r=guests/index
+---
+2014/04/05 19:27:22 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Системе не удалось найти запрашиваемое действие "guests".' in Z:\home\guestbook.ru\framework\web\CController.php:483
+Stack trace:
+#0 Z:\home\guestbook.ru\framework\web\CController.php(270): CController->missingAction('guests')
+#1 Z:\home\guestbook.ru\framework\web\CWebApplication.php(282): CController->run('guests')
+#2 Z:\home\guestbook.ru\framework\web\CWebApplication.php(141): CWebApplication->runController('guests/guests')
+#3 Z:\home\guestbook.ru\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 Z:\home\guestbook.ru\www\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/index.php?r=guests/guests&service=google&redirect_uri=http%3A%2F%2Fguestbook.ru%2Findex.php%3Fr%3Dguests%2Fguests%26service%3Dgoogle&js
+HTTP_REFERER=http://guestbook.ru/index.php?r=guests
+---
+2014/04/05 19:32:45 [error] [php] include(EAuthUserIdentity.php) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory (Z:\home\guestbook.ru\framework\YiiBase.php:427)
+Stack trace:
+#0 Z:\home\guestbook.ru\www\protected\controllers\GuestsController.php(133): spl_autoload_call()
+#1 Z:\home\guestbook.ru\framework\web\actions\CInlineAction.php(49): GuestsController->actionIndex()
+#2 Z:\home\guestbook.ru\framework\web\CController.php(308): CInlineAction->runWithParams()
+#3 Z:\home\guestbook.ru\framework\web\filters\CFilterChain.php(133): GuestsController->runAction()
+#4 Z:\home\guestbook.ru\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#5 Z:\home\guestbook.ru\framework\web\CController.php(1145): CAccessControlFilter->filter()
+#6 Z:\home\guestbook.ru\framework\web\filters\CInlineFilter.php(58): GuestsController->filterAccessControl()
+#7 Z:\home\guestbook.ru\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#8 Z:\home\guestbook.ru\framework\web\CController.php(291): CFilterChain->run()
+#9 Z:\home\guestbook.ru\framework\web\CController.php(265): GuestsController->runActionWithFilters()
+#10 Z:\home\guestbook.ru\framework\web\CWebApplication.php(282): GuestsController->run()
+#11 Z:\home\guestbook.ru\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#12 Z:\home\guestbook.ru\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#13 Z:\home\guestbook.ru\www\index.php(13): CWebApplication->run()
+REQUEST_URI=/index.php?r=guests/index&service=google&redirect_uri=http://guestbook.ru/index.php?r%3Dguests/index%26service%3Dgoogle&js&openid.ns=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0&openid.mode=id_res&openid.op_endpoint=https%3A%2F%2Fwww.google.com%2Faccounts%2Fo8%2Fud&openid.response_nonce=2014-04-05T13%3A35%3A40ZGS4DgHJBfGHjQg&openid.return_to=http%3A%2F%2Fguestbook.ru%2Findex.php%3Fr%3Dguests%2Findex%26service%3Dgoogle%26redirect_uri%3Dhttp%3A%2F%2Fguestbook.ru%2Findex.php%3Fr%253Dguests%2Findex%2526service%253Dgoogle%26js&openid.assoc_handle=1.AMlYA9UDQWIB8HmWf9Bib7WjIwJgcftKobODI_kf7PnpZCGIJB3Jw2tdcmyVLDni&openid.signed=op_endpoint%2Cclaimed_id%2Cidentity%2Creturn_to%2Cresponse_nonce%2Cassoc_handle%2Cns.ext1%2Cext1.mode%2Cext1.type.firstname%2Cext1.value.firstname&openid.sig=AQwJVD%2F0DyA79KbSvlLU%2BmEpNqQ%3D&openid.identity=https%3A%2F%2Fwww.google.com%2Faccounts%2Fo8%2Fid%3Fid%3DAItOawksTXeaRc2IZyrAF5f8FU3Q6khjXVdhjrA&openid.claimed_id=https%3A%2F%2Fwww.google.com%2Faccounts%2Fo8%2Fid%3Fid%3DAItOawksTXeaRc2IZyrAF5f8FU3Q6khjXVdhjrA&openid.ns.ext1=http%3A%2F%2Fopenid.net%2Fsrv%2Fax%2F1.0&openid.ext1.mode=fetch_response&openid.ext1.type.firstname=http%3A%2F%2Faxschema.org%2FnamePerson%2Ffirst&openid.ext1.value.firstname=Dima
+in Z:\home\guestbook.ru\www\protected\controllers\GuestsController.php (133)
+in Z:\home\guestbook.ru\www\index.php (13)
+2014/04/05 19:33:06 [error] [php] include(EAuthUserIdentity.php) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory (Z:\home\guestbook.ru\framework\YiiBase.php:427)
+Stack trace:
+#0 Z:\home\guestbook.ru\www\protected\controllers\GuestsController.php(133): spl_autoload_call()
+#1 Z:\home\guestbook.ru\framework\web\actions\CInlineAction.php(49): GuestsController->actionIndex()
+#2 Z:\home\guestbook.ru\framework\web\CController.php(308): CInlineAction->runWithParams()
+#3 Z:\home\guestbook.ru\framework\web\filters\CFilterChain.php(133): GuestsController->runAction()
+#4 Z:\home\guestbook.ru\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#5 Z:\home\guestbook.ru\framework\web\CController.php(1145): CAccessControlFilter->filter()
+#6 Z:\home\guestbook.ru\framework\web\filters\CInlineFilter.php(58): GuestsController->filterAccessControl()
+#7 Z:\home\guestbook.ru\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#8 Z:\home\guestbook.ru\framework\web\CController.php(291): CFilterChain->run()
+#9 Z:\home\guestbook.ru\framework\web\CController.php(265): GuestsController->runActionWithFilters()
+#10 Z:\home\guestbook.ru\framework\web\CWebApplication.php(282): GuestsController->run()
+#11 Z:\home\guestbook.ru\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#12 Z:\home\guestbook.ru\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#13 Z:\home\guestbook.ru\www\index.php(13): CWebApplication->run()
+REQUEST_URI=/index.php?r=guests/index&service=google&redirect_uri=http://guestbook.ru/index.php?r%3Dguests/index%26service%3Dgoogle&js&openid.ns=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0&openid.mode=id_res&openid.op_endpoint=https%3A%2F%2Fwww.google.com%2Faccounts%2Fo8%2Fud&openid.response_nonce=2014-04-05T13%3A36%3A00Z3Rp_NWlqKwepFg&openid.return_to=http%3A%2F%2Fguestbook.ru%2Findex.php%3Fr%3Dguests%2Findex%26service%3Dgoogle%26redirect_uri%3Dhttp%3A%2F%2Fguestbook.ru%2Findex.php%3Fr%253Dguests%2Findex%2526service%253Dgoogle%26js&openid.assoc_handle=1.AMlYA9VKCYQVWOr5_jxtvR93Qsd79R5nFA_4T10eTAvSqMLEt4wil9hZU44MVHIr&openid.signed=op_endpoint%2Cclaimed_id%2Cidentity%2Creturn_to%2Cresponse_nonce%2Cassoc_handle%2Cns.ext1%2Cext1.mode%2Cext1.type.firstname%2Cext1.value.firstname&openid.sig=JpYbLJXtNRb3OLFK14%2F592E7aV8%3D&openid.identity=https%3A%2F%2Fwww.google.com%2Faccounts%2Fo8%2Fid%3Fid%3DAItOawksTXeaRc2IZyrAF5f8FU3Q6khjXVdhjrA&openid.claimed_id=https%3A%2F%2Fwww.google.com%2Faccounts%2Fo8%2Fid%3Fid%3DAItOawksTXeaRc2IZyrAF5f8FU3Q6khjXVdhjrA&openid.ns.ext1=http%3A%2F%2Fopenid.net%2Fsrv%2Fax%2F1.0&openid.ext1.mode=fetch_response&openid.ext1.type.firstname=http%3A%2F%2Faxschema.org%2FnamePerson%2Ffirst&openid.ext1.value.firstname=Dima
+in Z:\home\guestbook.ru\www\protected\controllers\GuestsController.php (133)
+in Z:\home\guestbook.ru\www\index.php (13)
+2014/04/05 19:33:50 [error] [php] include(EAuthUserIdentity.php) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory (Z:\home\guestbook.ru\framework\YiiBase.php:427)
+Stack trace:
+#0 Z:\home\guestbook.ru\www\protected\controllers\GuestsController.php(133): spl_autoload_call()
+#1 Z:\home\guestbook.ru\framework\web\actions\CInlineAction.php(49): GuestsController->actionIndex()
+#2 Z:\home\guestbook.ru\framework\web\CController.php(308): CInlineAction->runWithParams()
+#3 Z:\home\guestbook.ru\framework\web\filters\CFilterChain.php(133): GuestsController->runAction()
+#4 Z:\home\guestbook.ru\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#5 Z:\home\guestbook.ru\framework\web\CController.php(1145): CAccessControlFilter->filter()
+#6 Z:\home\guestbook.ru\framework\web\filters\CInlineFilter.php(58): GuestsController->filterAccessControl()
+#7 Z:\home\guestbook.ru\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#8 Z:\home\guestbook.ru\framework\web\CController.php(291): CFilterChain->run()
+#9 Z:\home\guestbook.ru\framework\web\CController.php(265): GuestsController->runActionWithFilters()
+#10 Z:\home\guestbook.ru\framework\web\CWebApplication.php(282): GuestsController->run()
+#11 Z:\home\guestbook.ru\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#12 Z:\home\guestbook.ru\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#13 Z:\home\guestbook.ru\www\index.php(13): CWebApplication->run()
+REQUEST_URI=/index.php?r=guests/index&service=google&redirect_uri=http://guestbook.ru/index.php?r%3Dguests/index%26service%3Dgoogle&js&openid.ns=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0&openid.mode=id_res&openid.op_endpoint=https%3A%2F%2Fwww.google.com%2Faccounts%2Fo8%2Fud&openid.response_nonce=2014-04-05T13%3A36%3A44Z2mhJA6bFpbRcPQ&openid.return_to=http%3A%2F%2Fguestbook.ru%2Findex.php%3Fr%3Dguests%2Findex%26service%3Dgoogle%26redirect_uri%3Dhttp%3A%2F%2Fguestbook.ru%2Findex.php%3Fr%253Dguests%2Findex%2526service%253Dgoogle%26js&openid.assoc_handle=1.AMlYA9XKja3x5Z_uLQa1ONB7hRkzv_6-QCfRhQ2mxBTLkg1kzES-i4gTWz3VAgC7&openid.signed=op_endpoint%2Cclaimed_id%2Cidentity%2Creturn_to%2Cresponse_nonce%2Cassoc_handle%2Cns.ext1%2Cext1.mode%2Cext1.type.firstname%2Cext1.value.firstname&openid.sig=46sP8iBpi3YrMh%2FSTZG6%2FHnALnc%3D&openid.identity=https%3A%2F%2Fwww.google.com%2Faccounts%2Fo8%2Fid%3Fid%3DAItOawksTXeaRc2IZyrAF5f8FU3Q6khjXVdhjrA&openid.claimed_id=https%3A%2F%2Fwww.google.com%2Faccounts%2Fo8%2Fid%3Fid%3DAItOawksTXeaRc2IZyrAF5f8FU3Q6khjXVdhjrA&openid.ns.ext1=http%3A%2F%2Fopenid.net%2Fsrv%2Fax%2F1.0&openid.ext1.mode=fetch_response&openid.ext1.type.firstname=http%3A%2F%2Faxschema.org%2FnamePerson%2Ffirst&openid.ext1.value.firstname=Dima
+in Z:\home\guestbook.ru\www\protected\controllers\GuestsController.php (133)
+in Z:\home\guestbook.ru\www\index.php (13)
+2014/04/05 19:34:02 [error] [php] include(EAuthUserIdentity.php) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory (Z:\home\guestbook.ru\framework\YiiBase.php:427)
+Stack trace:
+#0 Z:\home\guestbook.ru\www\protected\controllers\GuestsController.php(133): spl_autoload_call()
+#1 Z:\home\guestbook.ru\framework\web\actions\CInlineAction.php(49): GuestsController->actionIndex()
+#2 Z:\home\guestbook.ru\framework\web\CController.php(308): CInlineAction->runWithParams()
+#3 Z:\home\guestbook.ru\framework\web\filters\CFilterChain.php(133): GuestsController->runAction()
+#4 Z:\home\guestbook.ru\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#5 Z:\home\guestbook.ru\framework\web\CController.php(1145): CAccessControlFilter->filter()
+#6 Z:\home\guestbook.ru\framework\web\filters\CInlineFilter.php(58): GuestsController->filterAccessControl()
+#7 Z:\home\guestbook.ru\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#8 Z:\home\guestbook.ru\framework\web\CController.php(291): CFilterChain->run()
+#9 Z:\home\guestbook.ru\framework\web\CController.php(265): GuestsController->runActionWithFilters()
+#10 Z:\home\guestbook.ru\framework\web\CWebApplication.php(282): GuestsController->run()
+#11 Z:\home\guestbook.ru\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#12 Z:\home\guestbook.ru\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#13 Z:\home\guestbook.ru\www\index.php(13): CWebApplication->run()
+REQUEST_URI=/index.php?r=guests/index&service=google&redirect_uri=http://guestbook.ru/index.php?r%3Dguests/index%26service%3Dgoogle&js&openid.ns=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0&openid.mode=id_res&openid.op_endpoint=https%3A%2F%2Fwww.google.com%2Faccounts%2Fo8%2Fud&openid.response_nonce=2014-04-05T13%3A36%3A56ZNX3NAIFLjDfEZw&openid.return_to=http%3A%2F%2Fguestbook.ru%2Findex.php%3Fr%3Dguests%2Findex%26service%3Dgoogle%26redirect_uri%3Dhttp%3A%2F%2Fguestbook.ru%2Findex.php%3Fr%253Dguests%2Findex%2526service%253Dgoogle%26js&openid.assoc_handle=1.AMlYA9VctXSIYlM5YGyTQXOohBaLBoMTPGElyyqw-J15jQAhE_jEg2YWWzidQB8f&openid.signed=op_endpoint%2Cclaimed_id%2Cidentity%2Creturn_to%2Cresponse_nonce%2Cassoc_handle%2Cns.ext1%2Cext1.mode%2Cext1.type.firstname%2Cext1.value.firstname&openid.sig=1FwTZW2Qt7hRUx86NFOgKEOVfHI%3D&openid.identity=https%3A%2F%2Fwww.google.com%2Faccounts%2Fo8%2Fid%3Fid%3DAItOawksTXeaRc2IZyrAF5f8FU3Q6khjXVdhjrA&openid.claimed_id=https%3A%2F%2Fwww.google.com%2Faccounts%2Fo8%2Fid%3Fid%3DAItOawksTXeaRc2IZyrAF5f8FU3Q6khjXVdhjrA&openid.ns.ext1=http%3A%2F%2Fopenid.net%2Fsrv%2Fax%2F1.0&openid.ext1.mode=fetch_response&openid.ext1.type.firstname=http%3A%2F%2Faxschema.org%2FnamePerson%2Ffirst&openid.ext1.value.firstname=Dima
+in Z:\home\guestbook.ru\www\protected\controllers\GuestsController.php (133)
+in Z:\home\guestbook.ru\www\index.php (13)
+2014/04/05 19:34:09 [error] [php] include(EAuthUserIdentity.php) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory (Z:\home\guestbook.ru\framework\YiiBase.php:427)
+Stack trace:
+#0 Z:\home\guestbook.ru\www\protected\controllers\GuestsController.php(133): spl_autoload_call()
+#1 Z:\home\guestbook.ru\framework\web\actions\CInlineAction.php(49): GuestsController->actionIndex()
+#2 Z:\home\guestbook.ru\framework\web\CController.php(308): CInlineAction->runWithParams()
+#3 Z:\home\guestbook.ru\framework\web\filters\CFilterChain.php(133): GuestsController->runAction()
+#4 Z:\home\guestbook.ru\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#5 Z:\home\guestbook.ru\framework\web\CController.php(1145): CAccessControlFilter->filter()
+#6 Z:\home\guestbook.ru\framework\web\filters\CInlineFilter.php(58): GuestsController->filterAccessControl()
+#7 Z:\home\guestbook.ru\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#8 Z:\home\guestbook.ru\framework\web\CController.php(291): CFilterChain->run()
+#9 Z:\home\guestbook.ru\framework\web\CController.php(265): GuestsController->runActionWithFilters()
+#10 Z:\home\guestbook.ru\framework\web\CWebApplication.php(282): GuestsController->run()
+#11 Z:\home\guestbook.ru\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#12 Z:\home\guestbook.ru\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#13 Z:\home\guestbook.ru\www\index.php(13): CWebApplication->run()
+REQUEST_URI=/index.php?r=guests/index&service=google&redirect_uri=http://guestbook.ru/index.php?r%3Dguests/index%26service%3Dgoogle&js&openid.ns=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0&openid.mode=id_res&openid.op_endpoint=https%3A%2F%2Fwww.google.com%2Faccounts%2Fo8%2Fud&openid.response_nonce=2014-04-05T13%3A37%3A04ZBdEZNowdkgHXhQ&openid.return_to=http%3A%2F%2Fguestbook.ru%2Findex.php%3Fr%3Dguests%2Findex%26service%3Dgoogle%26redirect_uri%3Dhttp%3A%2F%2Fguestbook.ru%2Findex.php%3Fr%253Dguests%2Findex%2526service%253Dgoogle%26js&openid.assoc_handle=1.AMlYA9Wuzc5rE1XwxpEXbWu30wYSYFxXAVzktV_CGV1dZSop23QcI5pNCSG42xfn&openid.signed=op_endpoint%2Cclaimed_id%2Cidentity%2Creturn_to%2Cresponse_nonce%2Cassoc_handle%2Cns.ext1%2Cext1.mode%2Cext1.type.firstname%2Cext1.value.firstname&openid.sig=QMkJGA%2BHK5VWtnO4o1FuQLZaLZI%3D&openid.identity=https%3A%2F%2Fwww.google.com%2Faccounts%2Fo8%2Fid%3Fid%3DAItOawksTXeaRc2IZyrAF5f8FU3Q6khjXVdhjrA&openid.claimed_id=https%3A%2F%2Fwww.google.com%2Faccounts%2Fo8%2Fid%3Fid%3DAItOawksTXeaRc2IZyrAF5f8FU3Q6khjXVdhjrA&openid.ns.ext1=http%3A%2F%2Fopenid.net%2Fsrv%2Fax%2F1.0&openid.ext1.mode=fetch_response&openid.ext1.type.firstname=http%3A%2F%2Faxschema.org%2FnamePerson%2Ffirst&openid.ext1.value.firstname=Dima
+in Z:\home\guestbook.ru\www\protected\controllers\GuestsController.php (133)
+in Z:\home\guestbook.ru\www\index.php (13)
+2014/04/05 19:34:28 [error] [php] include(EAuthUserIdentity.php) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory (Z:\home\guestbook.ru\framework\YiiBase.php:427)
+Stack trace:
+#0 Z:\home\guestbook.ru\www\protected\controllers\GuestsController.php(133): spl_autoload_call()
+#1 Z:\home\guestbook.ru\framework\web\actions\CInlineAction.php(49): GuestsController->actionIndex()
+#2 Z:\home\guestbook.ru\framework\web\CController.php(308): CInlineAction->runWithParams()
+#3 Z:\home\guestbook.ru\framework\web\filters\CFilterChain.php(133): GuestsController->runAction()
+#4 Z:\home\guestbook.ru\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#5 Z:\home\guestbook.ru\framework\web\CController.php(1145): CAccessControlFilter->filter()
+#6 Z:\home\guestbook.ru\framework\web\filters\CInlineFilter.php(58): GuestsController->filterAccessControl()
+#7 Z:\home\guestbook.ru\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#8 Z:\home\guestbook.ru\framework\web\CController.php(291): CFilterChain->run()
+#9 Z:\home\guestbook.ru\framework\web\CController.php(265): GuestsController->runActionWithFilters()
+#10 Z:\home\guestbook.ru\framework\web\CWebApplication.php(282): GuestsController->run()
+#11 Z:\home\guestbook.ru\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#12 Z:\home\guestbook.ru\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#13 Z:\home\guestbook.ru\www\index.php(13): CWebApplication->run()
+REQUEST_URI=/index.php?r=guests/index&service=google&redirect_uri=http://guestbook.ru/index.php?r%3Dguests/index%26service%3Dgoogle&js&openid.ns=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0&openid.mode=id_res&openid.op_endpoint=https%3A%2F%2Fwww.google.com%2Faccounts%2Fo8%2Fud&openid.response_nonce=2014-04-05T13%3A37%3A23ZkuOQ_Xcoi87OiA&openid.return_to=http%3A%2F%2Fguestbook.ru%2Findex.php%3Fr%3Dguests%2Findex%26service%3Dgoogle%26redirect_uri%3Dhttp%3A%2F%2Fguestbook.ru%2Findex.php%3Fr%253Dguests%2Findex%2526service%253Dgoogle%26js&openid.assoc_handle=1.AMlYA9UQ6xrzRDZYk8__7Qm1H8sETYLJ4MkDTsVHim7XBS1XIeAGxuyJ_D7ozUuf&openid.signed=op_endpoint%2Cclaimed_id%2Cidentity%2Creturn_to%2Cresponse_nonce%2Cassoc_handle%2Cns.ext1%2Cext1.mode%2Cext1.type.firstname%2Cext1.value.firstname&openid.sig=bZuya8aQ9WzJdccnIuaPtfnP%2FvY%3D&openid.identity=https%3A%2F%2Fwww.google.com%2Faccounts%2Fo8%2Fid%3Fid%3DAItOawksTXeaRc2IZyrAF5f8FU3Q6khjXVdhjrA&openid.claimed_id=https%3A%2F%2Fwww.google.com%2Faccounts%2Fo8%2Fid%3Fid%3DAItOawksTXeaRc2IZyrAF5f8FU3Q6khjXVdhjrA&openid.ns.ext1=http%3A%2F%2Fopenid.net%2Fsrv%2Fax%2F1.0&openid.ext1.mode=fetch_response&openid.ext1.type.firstname=http%3A%2F%2Faxschema.org%2FnamePerson%2Ffirst&openid.ext1.value.firstname=Dima
+in Z:\home\guestbook.ru\www\protected\controllers\GuestsController.php (133)
+in Z:\home\guestbook.ru\www\index.php (13)
+2014/04/05 19:36:05 [error] [php] include(EAuthUserIdentity.php) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory (Z:\home\guestbook.ru\framework\YiiBase.php:427)
+Stack trace:
+#0 Z:\home\guestbook.ru\www\protected\controllers\GuestsController.php(133): spl_autoload_call()
+#1 Z:\home\guestbook.ru\framework\web\actions\CInlineAction.php(49): GuestsController->actionIndex()
+#2 Z:\home\guestbook.ru\framework\web\CController.php(308): CInlineAction->runWithParams()
+#3 Z:\home\guestbook.ru\framework\web\filters\CFilterChain.php(133): GuestsController->runAction()
+#4 Z:\home\guestbook.ru\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#5 Z:\home\guestbook.ru\framework\web\CController.php(1145): CAccessControlFilter->filter()
+#6 Z:\home\guestbook.ru\framework\web\filters\CInlineFilter.php(58): GuestsController->filterAccessControl()
+#7 Z:\home\guestbook.ru\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#8 Z:\home\guestbook.ru\framework\web\CController.php(291): CFilterChain->run()
+#9 Z:\home\guestbook.ru\framework\web\CController.php(265): GuestsController->runActionWithFilters()
+#10 Z:\home\guestbook.ru\framework\web\CWebApplication.php(282): GuestsController->run()
+#11 Z:\home\guestbook.ru\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#12 Z:\home\guestbook.ru\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#13 Z:\home\guestbook.ru\www\index.php(13): CWebApplication->run()
+REQUEST_URI=/index.php?r=guests/index&service=google&redirect_uri=http://guestbook.ru/index.php?r%3Dguests/index%26service%3Dgoogle&js&openid.ns=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0&openid.mode=id_res&openid.op_endpoint=https%3A%2F%2Fwww.google.com%2Faccounts%2Fo8%2Fud&openid.response_nonce=2014-04-05T13%3A38%3A59Z4vdWPzcRh6mRfA&openid.return_to=http%3A%2F%2Fguestbook.ru%2Findex.php%3Fr%3Dguests%2Findex%26service%3Dgoogle%26redirect_uri%3Dhttp%3A%2F%2Fguestbook.ru%2Findex.php%3Fr%253Dguests%2Findex%2526service%253Dgoogle%26js&openid.assoc_handle=1.AMlYA9WlDMVQKxayWuXRvwbWss_vDZyqX5B0XFYlSC9b575R_GrFFArdXMEx1JUN&openid.signed=op_endpoint%2Cclaimed_id%2Cidentity%2Creturn_to%2Cresponse_nonce%2Cassoc_handle%2Cns.ext1%2Cext1.mode%2Cext1.type.firstname%2Cext1.value.firstname&openid.sig=d1dFaNMKAFKgB3coOSOGZSf6CtQ%3D&openid.identity=https%3A%2F%2Fwww.google.com%2Faccounts%2Fo8%2Fid%3Fid%3DAItOawksTXeaRc2IZyrAF5f8FU3Q6khjXVdhjrA&openid.claimed_id=https%3A%2F%2Fwww.google.com%2Faccounts%2Fo8%2Fid%3Fid%3DAItOawksTXeaRc2IZyrAF5f8FU3Q6khjXVdhjrA&openid.ns.ext1=http%3A%2F%2Fopenid.net%2Fsrv%2Fax%2F1.0&openid.ext1.mode=fetch_response&openid.ext1.type.firstname=http%3A%2F%2Faxschema.org%2FnamePerson%2Ffirst&openid.ext1.value.firstname=Dima
+in Z:\home\guestbook.ru\www\protected\controllers\GuestsController.php (133)
+in Z:\home\guestbook.ru\www\index.php (13)
+2014/04/05 19:40:04 [error] [php] include(EAuthUserIdentity.php) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory (Z:\home\guestbook.ru\framework\YiiBase.php:427)
+Stack trace:
+#0 Z:\home\guestbook.ru\www\protected\controllers\GuestsController.php(133): spl_autoload_call()
+#1 Z:\home\guestbook.ru\framework\web\actions\CInlineAction.php(49): GuestsController->actionIndex()
+#2 Z:\home\guestbook.ru\framework\web\CController.php(308): CInlineAction->runWithParams()
+#3 Z:\home\guestbook.ru\framework\web\filters\CFilterChain.php(133): GuestsController->runAction()
+#4 Z:\home\guestbook.ru\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#5 Z:\home\guestbook.ru\framework\web\CController.php(1145): CAccessControlFilter->filter()
+#6 Z:\home\guestbook.ru\framework\web\filters\CInlineFilter.php(58): GuestsController->filterAccessControl()
+#7 Z:\home\guestbook.ru\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#8 Z:\home\guestbook.ru\framework\web\CController.php(291): CFilterChain->run()
+#9 Z:\home\guestbook.ru\framework\web\CController.php(265): GuestsController->runActionWithFilters()
+#10 Z:\home\guestbook.ru\framework\web\CWebApplication.php(282): GuestsController->run()
+#11 Z:\home\guestbook.ru\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#12 Z:\home\guestbook.ru\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#13 Z:\home\guestbook.ru\www\index.php(13): CWebApplication->run()
+REQUEST_URI=/index.php?r=guests/index&service=google&redirect_uri=http://guestbook.ru/index.php?r%3Dguests/index%26service%3Dgoogle&js&openid.ns=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0&openid.mode=id_res&openid.op_endpoint=https%3A%2F%2Fwww.google.com%2Faccounts%2Fo8%2Fud&openid.response_nonce=2014-04-05T13%3A42%3A59Zoiv1i6NR9eFubw&openid.return_to=http%3A%2F%2Fguestbook.ru%2Findex.php%3Fr%3Dguests%2Findex%26service%3Dgoogle%26redirect_uri%3Dhttp%3A%2F%2Fguestbook.ru%2Findex.php%3Fr%253Dguests%2Findex%2526service%253Dgoogle%26js&openid.assoc_handle=1.AMlYA9W5TAMFe0032Me6doffA7m0WZv1QkMDPHnOAvzMVo19CXZGfZjjkJhYwQPF&openid.signed=op_endpoint%2Cclaimed_id%2Cidentity%2Creturn_to%2Cresponse_nonce%2Cassoc_handle%2Cns.ext1%2Cext1.mode%2Cext1.type.firstname%2Cext1.value.firstname&openid.sig=3s7zB2ASsz3rFJsNrWhG42ZDNg8%3D&openid.identity=https%3A%2F%2Fwww.google.com%2Faccounts%2Fo8%2Fid%3Fid%3DAItOawksTXeaRc2IZyrAF5f8FU3Q6khjXVdhjrA&openid.claimed_id=https%3A%2F%2Fwww.google.com%2Faccounts%2Fo8%2Fid%3Fid%3DAItOawksTXeaRc2IZyrAF5f8FU3Q6khjXVdhjrA&openid.ns.ext1=http%3A%2F%2Fopenid.net%2Fsrv%2Fax%2F1.0&openid.ext1.mode=fetch_response&openid.ext1.type.firstname=http%3A%2F%2Faxschema.org%2FnamePerson%2Ffirst&openid.ext1.value.firstname=Dima
+in Z:\home\guestbook.ru\www\protected\controllers\GuestsController.php (133)
+in Z:\home\guestbook.ru\www\index.php (13)
+2014/04/05 19:40:40 [error] [php] include(EAuthUserIdentity.php) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory (Z:\home\guestbook.ru\framework\YiiBase.php:427)
+Stack trace:
+#0 Z:\home\guestbook.ru\www\protected\controllers\GuestsController.php(133): spl_autoload_call()
+#1 Z:\home\guestbook.ru\framework\web\actions\CInlineAction.php(49): GuestsController->actionIndex()
+#2 Z:\home\guestbook.ru\framework\web\CController.php(308): CInlineAction->runWithParams()
+#3 Z:\home\guestbook.ru\framework\web\filters\CFilterChain.php(133): GuestsController->runAction()
+#4 Z:\home\guestbook.ru\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#5 Z:\home\guestbook.ru\framework\web\CController.php(1145): CAccessControlFilter->filter()
+#6 Z:\home\guestbook.ru\framework\web\filters\CInlineFilter.php(58): GuestsController->filterAccessControl()
+#7 Z:\home\guestbook.ru\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#8 Z:\home\guestbook.ru\framework\web\CController.php(291): CFilterChain->run()
+#9 Z:\home\guestbook.ru\framework\web\CController.php(265): GuestsController->runActionWithFilters()
+#10 Z:\home\guestbook.ru\framework\web\CWebApplication.php(282): GuestsController->run()
+#11 Z:\home\guestbook.ru\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#12 Z:\home\guestbook.ru\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#13 Z:\home\guestbook.ru\www\index.php(13): CWebApplication->run()
+REQUEST_URI=/index.php?r=guests/index&service=google&redirect_uri=http://guestbook.ru/index.php?r%3Dguests/index%26service%3Dgoogle&js&openid.ns=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0&openid.mode=id_res&openid.op_endpoint=https%3A%2F%2Fwww.google.com%2Faccounts%2Fo8%2Fud&openid.response_nonce=2014-04-05T13%3A43%3A35Z51bqTJIoZ3nMqw&openid.return_to=http%3A%2F%2Fguestbook.ru%2Findex.php%3Fr%3Dguests%2Findex%26service%3Dgoogle%26redirect_uri%3Dhttp%3A%2F%2Fguestbook.ru%2Findex.php%3Fr%253Dguests%2Findex%2526service%253Dgoogle%26js&openid.assoc_handle=1.AMlYA9UiWS5-yTxvDJNrziaflPjTmZS9XgijJFoVGfKdskSaRfA8_-2oD3ZW8Pjq&openid.signed=op_endpoint%2Cclaimed_id%2Cidentity%2Creturn_to%2Cresponse_nonce%2Cassoc_handle%2Cns.ext1%2Cext1.mode%2Cext1.type.firstname%2Cext1.value.firstname&openid.sig=vzF1xY3gd7%2BVg9YoWbnh88t6pOg%3D&openid.identity=https%3A%2F%2Fwww.google.com%2Faccounts%2Fo8%2Fid%3Fid%3DAItOawksTXeaRc2IZyrAF5f8FU3Q6khjXVdhjrA&openid.claimed_id=https%3A%2F%2Fwww.google.com%2Faccounts%2Fo8%2Fid%3Fid%3DAItOawksTXeaRc2IZyrAF5f8FU3Q6khjXVdhjrA&openid.ns.ext1=http%3A%2F%2Fopenid.net%2Fsrv%2Fax%2F1.0&openid.ext1.mode=fetch_response&openid.ext1.type.firstname=http%3A%2F%2Faxschema.org%2FnamePerson%2Ffirst&openid.ext1.value.firstname=Dima
+in Z:\home\guestbook.ru\www\protected\controllers\GuestsController.php (133)
+in Z:\home\guestbook.ru\www\index.php (13)
+2014/04/05 19:57:05 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Системе не удалось найти запрашиваемое действие "guests".' in Z:\home\guestbook.ru\framework\web\CController.php:483
+Stack trace:
+#0 Z:\home\guestbook.ru\framework\web\CController.php(270): CController->missingAction('guests')
+#1 Z:\home\guestbook.ru\framework\web\CWebApplication.php(282): CController->run('guests')
+#2 Z:\home\guestbook.ru\framework\web\CWebApplication.php(141): CWebApplication->runController('guests/guests')
+#3 Z:\home\guestbook.ru\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 Z:\home\guestbook.ru\www\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/index.php?r=guests/guests&service=vkontakte&redirect_uri=http%3A%2F%2Fwww.guestbook.ru%2Findex.php%3Fr%3Dguests%2Fguests%26service%3Dvkontakte&js
+HTTP_REFERER=http://www.guestbook.ru/index.php?r=guests
+---
+2014/04/06 10:05:18 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Системе не удалось найти запрашиваемое действие "guests".' in Z:\home\guestbook.ru\framework\web\CController.php:483
+Stack trace:
+#0 Z:\home\guestbook.ru\framework\web\CController.php(270): CController->missingAction('guests')
+#1 Z:\home\guestbook.ru\framework\web\CWebApplication.php(282): CController->run('guests')
+#2 Z:\home\guestbook.ru\framework\web\CWebApplication.php(141): CWebApplication->runController('guests/guests')
+#3 Z:\home\guestbook.ru\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 Z:\home\guestbook.ru\www\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/index.php?r=guests/guests&service=vkontakte&redirect_uri=http%3A%2F%2Fwww.guestbook.ru%2Findex.php%3Fr%3Dguests%2Fguests%26service%3Dvkontakte&js
+HTTP_REFERER=http://www.guestbook.ru/index.php?r=guests
+---
+2014/04/06 10:05:21 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Системе не удалось найти запрашиваемое действие "guests".' in Z:\home\guestbook.ru\framework\web\CController.php:483
+Stack trace:
+#0 Z:\home\guestbook.ru\framework\web\CController.php(270): CController->missingAction('guests')
+#1 Z:\home\guestbook.ru\framework\web\CWebApplication.php(282): CController->run('guests')
+#2 Z:\home\guestbook.ru\framework\web\CWebApplication.php(141): CWebApplication->runController('guests/guests')
+#3 Z:\home\guestbook.ru\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 Z:\home\guestbook.ru\www\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/index.php?r=guests/guests&service=yandex&redirect_uri=http%3A%2F%2Fwww.guestbook.ru%2Findex.php%3Fr%3Dguests%2Fguests%26service%3Dyandex&js
+HTTP_REFERER=http://www.guestbook.ru/index.php?r=guests
+---
+2014/04/06 10:05:24 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Системе не удалось найти запрашиваемое действие "guests".' in Z:\home\guestbook.ru\framework\web\CController.php:483
+Stack trace:
+#0 Z:\home\guestbook.ru\framework\web\CController.php(270): CController->missingAction('guests')
+#1 Z:\home\guestbook.ru\framework\web\CWebApplication.php(282): CController->run('guests')
+#2 Z:\home\guestbook.ru\framework\web\CWebApplication.php(141): CWebApplication->runController('guests/guests')
+#3 Z:\home\guestbook.ru\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 Z:\home\guestbook.ru\www\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/index.php?r=guests/guests&service=google&redirect_uri=http%3A%2F%2Fwww.guestbook.ru%2Findex.php%3Fr%3Dguests%2Fguests%26service%3Dgoogle&js
+HTTP_REFERER=http://www.guestbook.ru/index.php?r=guests
+---
+2014/04/06 10:09:01 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Системе не удалось найти запрашиваемое действие "guests".' in Z:\home\guestbook.ru\framework\web\CController.php:483
+Stack trace:
+#0 Z:\home\guestbook.ru\framework\web\CController.php(270): CController->missingAction('guests')
+#1 Z:\home\guestbook.ru\framework\web\CWebApplication.php(282): CController->run('guests')
+#2 Z:\home\guestbook.ru\framework\web\CWebApplication.php(141): CWebApplication->runController('guests/guests')
+#3 Z:\home\guestbook.ru\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 Z:\home\guestbook.ru\www\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/index.php?r=guests/guests&service=vkontakte&redirect_uri=http%3A%2F%2Fwww.guestbook.ru%2Findex.php%3Fr%3Dguests%2Fguests%26service%3Dvkontakte&js
+HTTP_REFERER=http://www.guestbook.ru/index.php?r=guests
+---
+2014/04/06 10:13:51 [error] [php] include(EAuthUserIdentity.php) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory (Z:\home\guestbook.ru\framework\YiiBase.php:427)
+Stack trace:
+#0 Z:\home\guestbook.ru\www\protected\controllers\GuestsController.php(133): spl_autoload_call()
+#1 Z:\home\guestbook.ru\framework\web\actions\CInlineAction.php(49): GuestsController->actionIndex()
+#2 Z:\home\guestbook.ru\framework\web\CController.php(308): CInlineAction->runWithParams()
+#3 Z:\home\guestbook.ru\framework\web\filters\CFilterChain.php(133): GuestsController->runAction()
+#4 Z:\home\guestbook.ru\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#5 Z:\home\guestbook.ru\framework\web\CController.php(1145): CAccessControlFilter->filter()
+#6 Z:\home\guestbook.ru\framework\web\filters\CInlineFilter.php(58): GuestsController->filterAccessControl()
+#7 Z:\home\guestbook.ru\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#8 Z:\home\guestbook.ru\framework\web\CController.php(291): CFilterChain->run()
+#9 Z:\home\guestbook.ru\framework\web\CController.php(265): GuestsController->runActionWithFilters()
+#10 Z:\home\guestbook.ru\framework\web\CWebApplication.php(282): GuestsController->run()
+#11 Z:\home\guestbook.ru\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#12 Z:\home\guestbook.ru\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#13 Z:\home\guestbook.ru\www\index.php(13): CWebApplication->run()
+REQUEST_URI=/index.php?r=guests/index&service=google&redirect_uri=http://www.guestbook.ru/index.php?r%3Dguests/index%26service%3Dgoogle&js&openid.ns=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0&openid.mode=id_res&openid.op_endpoint=https%3A%2F%2Fwww.google.com%2Faccounts%2Fo8%2Fud&openid.response_nonce=2014-04-06T04%3A16%3A47Zr2eJmORuaVSheA&openid.return_to=http%3A%2F%2Fwww.guestbook.ru%2Findex.php%3Fr%3Dguests%2Findex%26service%3Dgoogle%26redirect_uri%3Dhttp%3A%2F%2Fwww.guestbook.ru%2Findex.php%3Fr%253Dguests%2Findex%2526service%253Dgoogle%26js&openid.assoc_handle=1.AMlYA9USPaDnS-_jJoms2DXOzzqZBP5gid4FntildyV5uKM4DFheTTsHc0tU5hCh&openid.signed=op_endpoint%2Cclaimed_id%2Cidentity%2Creturn_to%2Cresponse_nonce%2Cassoc_handle%2Cns.ext1%2Cext1.mode%2Cext1.type.firstname%2Cext1.value.firstname&openid.sig=cCw9lXHAsp%2FWsw8oGhmGg3qGomQ%3D&openid.identity=https%3A%2F%2Fwww.google.com%2Faccounts%2Fo8%2Fid%3Fid%3DAItOawlOsnvp8L-1jgz9yiTXwva7uaWOPYb5TPY&openid.claimed_id=https%3A%2F%2Fwww.google.com%2Faccounts%2Fo8%2Fid%3Fid%3DAItOawlOsnvp8L-1jgz9yiTXwva7uaWOPYb5TPY&openid.ns.ext1=http%3A%2F%2Fopenid.net%2Fsrv%2Fax%2F1.0&openid.ext1.mode=fetch_response&openid.ext1.type.firstname=http%3A%2F%2Faxschema.org%2FnamePerson%2Ffirst&openid.ext1.value.firstname=Dima
+in Z:\home\guestbook.ru\www\protected\controllers\GuestsController.php (133)
+in Z:\home\guestbook.ru\www\index.php (13)
+2014/04/06 10:26:25 [error] [php] include(EAuthUserIdentity.php) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory (Z:\home\guestbook.ru\framework\YiiBase.php:427)
+Stack trace:
+#0 Z:\home\guestbook.ru\www\protected\controllers\GuestsController.php(133): spl_autoload_call()
+#1 Z:\home\guestbook.ru\framework\web\actions\CInlineAction.php(49): GuestsController->actionIndex()
+#2 Z:\home\guestbook.ru\framework\web\CController.php(308): CInlineAction->runWithParams()
+#3 Z:\home\guestbook.ru\framework\web\filters\CFilterChain.php(133): GuestsController->runAction()
+#4 Z:\home\guestbook.ru\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#5 Z:\home\guestbook.ru\framework\web\CController.php(1145): CAccessControlFilter->filter()
+#6 Z:\home\guestbook.ru\framework\web\filters\CInlineFilter.php(58): GuestsController->filterAccessControl()
+#7 Z:\home\guestbook.ru\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#8 Z:\home\guestbook.ru\framework\web\CController.php(291): CFilterChain->run()
+#9 Z:\home\guestbook.ru\framework\web\CController.php(265): GuestsController->runActionWithFilters()
+#10 Z:\home\guestbook.ru\framework\web\CWebApplication.php(282): GuestsController->run()
+#11 Z:\home\guestbook.ru\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#12 Z:\home\guestbook.ru\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#13 Z:\home\guestbook.ru\www\index.php(13): CWebApplication->run()
+REQUEST_URI=/index.php?r=guests/index&service=google&redirect_uri=http://www.guestbook.ru/index.php?r%3Dguests/index%26service%3Dgoogle&js&openid.ns=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0&openid.mode=id_res&openid.op_endpoint=https%3A%2F%2Fwww.google.com%2Faccounts%2Fo8%2Fud&openid.response_nonce=2014-04-06T04%3A29%3A21ZNZhD33D8p8HC1A&openid.return_to=http%3A%2F%2Fwww.guestbook.ru%2Findex.php%3Fr%3Dguests%2Findex%26service%3Dgoogle%26redirect_uri%3Dhttp%3A%2F%2Fwww.guestbook.ru%2Findex.php%3Fr%253Dguests%2Findex%2526service%253Dgoogle%26js&openid.assoc_handle=1.AMlYA9W2Axh1OjsxOZZ5JqtoChALOqPUroE3tN1XYGPvo0d5Lsz9b4vtc7LruVP3&openid.signed=op_endpoint%2Cclaimed_id%2Cidentity%2Creturn_to%2Cresponse_nonce%2Cassoc_handle%2Cns.ext1%2Cext1.mode%2Cext1.type.firstname%2Cext1.value.firstname&openid.sig=LpQsxKSNm7yKWZEZ1kjhJCHUi5c%3D&openid.identity=https%3A%2F%2Fwww.google.com%2Faccounts%2Fo8%2Fid%3Fid%3DAItOawlOsnvp8L-1jgz9yiTXwva7uaWOPYb5TPY&openid.claimed_id=https%3A%2F%2Fwww.google.com%2Faccounts%2Fo8%2Fid%3Fid%3DAItOawlOsnvp8L-1jgz9yiTXwva7uaWOPYb5TPY&openid.ns.ext1=http%3A%2F%2Fopenid.net%2Fsrv%2Fax%2F1.0&openid.ext1.mode=fetch_response&openid.ext1.type.firstname=http%3A%2F%2Faxschema.org%2FnamePerson%2Ffirst&openid.ext1.value.firstname=Dima
+in Z:\home\guestbook.ru\www\protected\controllers\GuestsController.php (133)
+in Z:\home\guestbook.ru\www\index.php (13)
+2014/04/06 10:26:50 [error] [exception.CException] exception 'CException' with message 'Неправильный алиас "ex.eauth.EAuthWidget". Убедитесь, что он указывает на существующую директорию или файл.' in Z:\home\guestbook.ru\framework\YiiBase.php:347
+Stack trace:
+#0 Z:\home\guestbook.ru\framework\web\CWidgetFactory.php(146): YiiBase::import('ex.eauth.EAuthW...', true)
+#1 Z:\home\guestbook.ru\framework\web\CBaseController.php(146): CWidgetFactory->createWidget(Object(GuestsController), 'ex.eauth.EAuthW...', Array)
+#2 Z:\home\guestbook.ru\framework\web\CBaseController.php(172): CBaseController->createWidget('ex.eauth.EAuthW...', Array)
+#3 Z:\home\guestbook.ru\www\protected\views\guests\index.php(51): CBaseController->widget('ex.eauth.EAuthW...')
+#4 Z:\home\guestbook.ru\framework\web\CBaseController.php(126): require('Z:\home\guestbo...')
+#5 Z:\home\guestbook.ru\framework\web\CBaseController.php(95): CBaseController->renderInternal('Z:\home\guestbo...', NULL, true)
+#6 Z:\home\guestbook.ru\framework\web\CController.php(869): CBaseController->renderFile('Z:\home\guestbo...', NULL, true)
+#7 Z:\home\guestbook.ru\framework\web\CController.php(782): CController->renderPartial('index', NULL, true)
+#8 Z:\home\guestbook.ru\www\protected\controllers\GuestsController.php(166): CController->render('index')
+#9 Z:\home\guestbook.ru\framework\web\actions\CInlineAction.php(49): GuestsController->actionIndex()
+#10 Z:\home\guestbook.ru\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#11 Z:\home\guestbook.ru\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#12 Z:\home\guestbook.ru\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#13 Z:\home\guestbook.ru\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#14 Z:\home\guestbook.ru\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#15 Z:\home\guestbook.ru\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#16 Z:\home\guestbook.ru\framework\web\CController.php(291): CFilterChain->run()
+#17 Z:\home\guestbook.ru\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#18 Z:\home\guestbook.ru\framework\web\CWebApplication.php(282): CController->run('index')
+#19 Z:\home\guestbook.ru\framework\web\CWebApplication.php(141): CWebApplication->runController('guests/index')
+#20 Z:\home\guestbook.ru\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#21 Z:\home\guestbook.ru\www\index.php(13): CApplication->run()
+#22 {main}
+REQUEST_URI=/index.php?r=guests/index
+HTTP_REFERER=http://www.guestbook.ru/index.php?r=site/index
+---
+2014/04/06 10:33:12 [error] [php] include(YandexOAuthService.php) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory (Z:\home\guestbook.ru\framework\YiiBase.php:427)
+Stack trace:
+#0 Z:\home\guestbook.ru\www\protected\extensions\eauth\EAuth.php(93): spl_autoload_call()
+#1 Z:\home\guestbook.ru\www\protected\extensions\eauth\EAuth.php(37): EAuth->getIdentity()
+#2 Z:\home\guestbook.ru\www\protected\extensions\eauth\EAuthWidget.php(51): EAuth->getServices()
+#3 Z:\home\guestbook.ru\framework\web\CBaseController.php(147): EAuthWidget->init()
+#4 Z:\home\guestbook.ru\framework\web\CBaseController.php(172): GuestsController->createWidget()
+#5 Z:\home\guestbook.ru\www\protected\views\guests\index.php(51): GuestsController->widget()
+#6 Z:\home\guestbook.ru\framework\web\CBaseController.php(126): require()
+#7 Z:\home\guestbook.ru\framework\web\CBaseController.php(95): GuestsController->renderInternal()
+#8 Z:\home\guestbook.ru\framework\web\CController.php(869): GuestsController->renderFile()
+#9 Z:\home\guestbook.ru\framework\web\CController.php(782): GuestsController->renderPartial()
+#10 Z:\home\guestbook.ru\www\protected\controllers\GuestsController.php(166): GuestsController->render()
+#11 Z:\home\guestbook.ru\framework\web\actions\CInlineAction.php(49): GuestsController->actionIndex()
+#12 Z:\home\guestbook.ru\framework\web\CController.php(308): CInlineAction->runWithParams()
+#13 Z:\home\guestbook.ru\framework\web\filters\CFilterChain.php(133): GuestsController->runAction()
+#14 Z:\home\guestbook.ru\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#15 Z:\home\guestbook.ru\framework\web\CController.php(1145): CAccessControlFilter->filter()
+#16 Z:\home\guestbook.ru\framework\web\filters\CInlineFilter.php(58): GuestsController->filterAccessControl()
+#17 Z:\home\guestbook.ru\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#18 Z:\home\guestbook.ru\framework\web\CController.php(291): CFilterChain->run()
+#19 Z:\home\guestbook.ru\framework\web\CController.php(265): GuestsController->runActionWithFilters()
+#20 Z:\home\guestbook.ru\framework\web\CWebApplication.php(282): GuestsController->run()
+#21 Z:\home\guestbook.ru\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#22 Z:\home\guestbook.ru\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#23 Z:\home\guestbook.ru\www\index.php(13): CWebApplication->run()
+REQUEST_URI=/index.php?r=guests/index
+in Z:\home\guestbook.ru\www\protected\extensions\eauth\EAuth.php (93)
+in Z:\home\guestbook.ru\www\protected\extensions\eauth\EAuth.php (37)
+in Z:\home\guestbook.ru\www\protected\extensions\eauth\EAuthWidget.php (51)
+2014/04/06 10:33:22 [error] [php] include(YandexOAuthService.php) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory (Z:\home\guestbook.ru\framework\YiiBase.php:427)
+Stack trace:
+#0 Z:\home\guestbook.ru\www\protected\extensions\eauth\EAuth.php(93): spl_autoload_call()
+#1 Z:\home\guestbook.ru\www\protected\extensions\eauth\EAuth.php(37): EAuth->getIdentity()
+#2 Z:\home\guestbook.ru\www\protected\extensions\eauth\EAuthWidget.php(51): EAuth->getServices()
+#3 Z:\home\guestbook.ru\framework\web\CBaseController.php(147): EAuthWidget->init()
+#4 Z:\home\guestbook.ru\framework\web\CBaseController.php(172): GuestsController->createWidget()
+#5 Z:\home\guestbook.ru\www\protected\views\guests\index.php(51): GuestsController->widget()
+#6 Z:\home\guestbook.ru\framework\web\CBaseController.php(126): require()
+#7 Z:\home\guestbook.ru\framework\web\CBaseController.php(95): GuestsController->renderInternal()
+#8 Z:\home\guestbook.ru\framework\web\CController.php(869): GuestsController->renderFile()
+#9 Z:\home\guestbook.ru\framework\web\CController.php(782): GuestsController->renderPartial()
+#10 Z:\home\guestbook.ru\www\protected\controllers\GuestsController.php(166): GuestsController->render()
+#11 Z:\home\guestbook.ru\framework\web\actions\CInlineAction.php(49): GuestsController->actionIndex()
+#12 Z:\home\guestbook.ru\framework\web\CController.php(308): CInlineAction->runWithParams()
+#13 Z:\home\guestbook.ru\framework\web\filters\CFilterChain.php(133): GuestsController->runAction()
+#14 Z:\home\guestbook.ru\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#15 Z:\home\guestbook.ru\framework\web\CController.php(1145): CAccessControlFilter->filter()
+#16 Z:\home\guestbook.ru\framework\web\filters\CInlineFilter.php(58): GuestsController->filterAccessControl()
+#17 Z:\home\guestbook.ru\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#18 Z:\home\guestbook.ru\framework\web\CController.php(291): CFilterChain->run()
+#19 Z:\home\guestbook.ru\framework\web\CController.php(265): GuestsController->runActionWithFilters()
+#20 Z:\home\guestbook.ru\framework\web\CWebApplication.php(282): GuestsController->run()
+#21 Z:\home\guestbook.ru\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#22 Z:\home\guestbook.ru\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#23 Z:\home\guestbook.ru\www\index.php(13): CWebApplication->run()
+REQUEST_URI=/index.php?r=guests/index
+in Z:\home\guestbook.ru\www\protected\extensions\eauth\EAuth.php (93)
+in Z:\home\guestbook.ru\www\protected\extensions\eauth\EAuth.php (37)
+in Z:\home\guestbook.ru\www\protected\extensions\eauth\EAuthWidget.php (51)
+2014/04/06 10:33:24 [error] [php] include(YandexOAuthService.php) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory (Z:\home\guestbook.ru\framework\YiiBase.php:427)
+Stack trace:
+#0 Z:\home\guestbook.ru\www\protected\extensions\eauth\EAuth.php(93): spl_autoload_call()
+#1 Z:\home\guestbook.ru\www\protected\extensions\eauth\EAuth.php(37): EAuth->getIdentity()
+#2 Z:\home\guestbook.ru\www\protected\extensions\eauth\EAuthWidget.php(51): EAuth->getServices()
+#3 Z:\home\guestbook.ru\framework\web\CBaseController.php(147): EAuthWidget->init()
+#4 Z:\home\guestbook.ru\framework\web\CBaseController.php(172): GuestsController->createWidget()
+#5 Z:\home\guestbook.ru\www\protected\views\guests\index.php(51): GuestsController->widget()
+#6 Z:\home\guestbook.ru\framework\web\CBaseController.php(126): require()
+#7 Z:\home\guestbook.ru\framework\web\CBaseController.php(95): GuestsController->renderInternal()
+#8 Z:\home\guestbook.ru\framework\web\CController.php(869): GuestsController->renderFile()
+#9 Z:\home\guestbook.ru\framework\web\CController.php(782): GuestsController->renderPartial()
+#10 Z:\home\guestbook.ru\www\protected\controllers\GuestsController.php(166): GuestsController->render()
+#11 Z:\home\guestbook.ru\framework\web\actions\CInlineAction.php(49): GuestsController->actionIndex()
+#12 Z:\home\guestbook.ru\framework\web\CController.php(308): CInlineAction->runWithParams()
+#13 Z:\home\guestbook.ru\framework\web\filters\CFilterChain.php(133): GuestsController->runAction()
+#14 Z:\home\guestbook.ru\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#15 Z:\home\guestbook.ru\framework\web\CController.php(1145): CAccessControlFilter->filter()
+#16 Z:\home\guestbook.ru\framework\web\filters\CInlineFilter.php(58): GuestsController->filterAccessControl()
+#17 Z:\home\guestbook.ru\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#18 Z:\home\guestbook.ru\framework\web\CController.php(291): CFilterChain->run()
+#19 Z:\home\guestbook.ru\framework\web\CController.php(265): GuestsController->runActionWithFilters()
+#20 Z:\home\guestbook.ru\framework\web\CWebApplication.php(282): GuestsController->run()
+#21 Z:\home\guestbook.ru\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#22 Z:\home\guestbook.ru\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#23 Z:\home\guestbook.ru\www\index.php(13): CWebApplication->run()
+REQUEST_URI=/index.php?r=guests/index
+in Z:\home\guestbook.ru\www\protected\extensions\eauth\EAuth.php (93)
+in Z:\home\guestbook.ru\www\protected\extensions\eauth\EAuth.php (37)
+in Z:\home\guestbook.ru\www\protected\extensions\eauth\EAuthWidget.php (51)

@@ -1,4 +1,4 @@
 <?php
 ?>
-<H3 ALIGN=CENTER> Запись создана! </H3> 
-<button ALIGN=CENTER><a href="/index.php?r=guests"> Вернуться </a></button>
+<H3 ALIGN=CENTER> Р—Р°РїРёСЃСЊ СЃРѕР·РґР°РЅР°! </H3> 
+<button ALIGN=CENTER><a href="/index.php?r=guests"> Р’РµСЂРЅСѓС‚СЊСЃСЏ </a></button>
